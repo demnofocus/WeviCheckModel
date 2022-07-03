@@ -1,5 +1,4 @@
 from spellchecker import SpellChecker
-from flask import jsonify
 
 import cv2
 
@@ -31,7 +30,6 @@ class SpellCheck:
         self.word_list = []
 
     def spell_check(self, org_image, text_list):
-        print("running grammar checker")
         words_dic = break_to_words(text_list)
 
         wrong_words_dic = {}

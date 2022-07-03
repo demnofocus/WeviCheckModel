@@ -54,11 +54,6 @@ def visualize_texts(org_image, texts, show=False, write_path=None):
         cv2.rectangle(image, (text.boundary['left'], text.boundary['top']),
                       (text.boundary['right'], text.boundary['bottom']), (0, 0, 255), 2)
 
-    # # Resize image
-    # img_resize = image
-    # if parameters['resize_height'] > 0:
-    #     img_resize = preprocess.resize_by_height(image, parameters['resize_height'])
-
     # Show image
     if show:
         cv2.imshow('texts', image)
@@ -95,12 +90,6 @@ def text_detection(image, config):
     # Visualize results
     visualize_texts(image, texts, show=False, write_path=pjoin(ocr_root, name+'.png'))
     save_detection_json(pjoin(ocr_root, name + '.json'), texts, image.shape)
-    print("[Text Detection Completed in %.3f s] Input: %s Output: %s" % (
-        time.time() - start, config.INPUT_PATH, pjoin(ocr_root, name + '.json')))
-
-    for text in texts:
-        print(text.id, " ", text.content, " ", text.boundary, " ", text.width, " ", text.height, " ",
-              text.word_width, " ", text.area, " ")
 
     return texts
 

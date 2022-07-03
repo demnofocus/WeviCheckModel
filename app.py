@@ -143,9 +143,6 @@ def ui_check():
 
     original_img = image
 
-    print(type(original_img))
-    print(original_img.shape)
-    print(original_img[0][0])
     webpage.image = original_img
 
     preprocessed_img = pre.get_vertically_cropped_image(original_img, configuration.CROP_VALUE_TOP,
@@ -156,7 +153,6 @@ def ui_check():
 
     webpage.text_elements = text.text_detection(preprocessed_img, configuration)
     image2 = text.draw_text_blocks(preprocessed_img, webpage.text_elements)
-    cv2.imwrite('text_example22.jpg', image2)
 
     webpage.non_text_elements, detected_img = ip.compo_detection(preprocessed_img, image2, configuration)
 
@@ -228,7 +224,6 @@ def ui_check():
                          "boundary_right": report_encoded4,
                          "row_center": report_encoded5,
                          "column_center": report_encoded6}})
-        print(len(alignment.alignment_list))
 
     if configuration.CHECK_TEXT_CONTRAST:
         from uicheck.ContrastCheck import ContrastCheck
@@ -279,7 +274,6 @@ def ui_check():
         report_encoded = "data:image/jpeg;base64," + str(base64.b64encode(image_report_buffered.getvalue()))[2:][:-1]
         message.update({"image_test": {"image": report_encoded, "report": blur_check_dic}})
 
-    print(message.keys())
     return message
 
 

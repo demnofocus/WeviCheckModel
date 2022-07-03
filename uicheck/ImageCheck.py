@@ -1,19 +1,4 @@
 import cv2
-import csv
-import preprocess as pre
-
-
-def print_report(report_name, image, element_list):
-    write_path = 'data/reports/images/' + report_name + '.jpg'
-
-    # with open('data/reports/images/' + report_name + '.csv', 'w', encoding='UTF8', newline='') as f:
-    #     writer = csv.writer(f)
-    #     writer.writerows(element_list)
-
-    # cv2.imwrite(write_path, image)
-    # scaled_img = pre.get_resize_img(image, 1 / 3)
-    # cv2.imshow(report_name, scaled_img)
-    # cv2.waitKey(0)
 
 
 class ImageCheck:
@@ -44,5 +29,5 @@ class ImageCheck:
             blur_check_dic[element.id] = value
         report_name = str(image_id) + '_blured_check'
         self.image_check_list.append([report_name, blur_check_dic])
-        # print_report(report_name, img, elements)
+
         return img, blur_check_dic

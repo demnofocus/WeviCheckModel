@@ -137,8 +137,7 @@ class Component:
                 # if the surface is not changing to a pit and the gradient is zero, then count it as flat
                 if abs(depth) < 1 + adj_side * 0.015:
                     flat += 1
-                # if test:
-                # # print(depth, adj_side, flat)
+
             # if the pit is too big, the shape should not be a rectangle
             if pit / len(border) > max_dent_ratio:
                 self.rect_ = False

@@ -9,20 +9,18 @@ class GrammarCheck:
         self.word_list = []
 
     def grammar_check(self, org_image, text_list):
-        print("running grammar checker")
         image = org_image.copy()
         text_dic = {}
 
         if len(text_list) > 0:
             for element in text_list:
                 text_dic.setdefault(element.id, {})
-                print("LOOP 1")
-                print(element.content)
+
                 match_list = tool.check(element.content)
-                print(match_list)
                 mistakes = []
                 corrections = []
                 result = "pass"
+
                 if len(match_list) > 0:
                     text = match_list[0].context
                     mistakes = text[match_list[0].offset:match_list[0].errorLength + match_list[0].offset]

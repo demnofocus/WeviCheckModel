@@ -1,6 +1,5 @@
 import cv2
 import pandas as pd
-import preprocess as pre
 
 index = ["color", "color_name", "hex", "R", "G", "B"]
 csv = pd.read_csv('data/colors.csv', names=index, header=None)
@@ -37,28 +36,6 @@ def get_color(R, G, B):
             minimum = d
             cname = csv.loc[i, "color_name"]
     return cname
-
-
-def print_report(name, image, text_list):
-    path = "data/reports/contrast/" + name + ".png"
-    for t in text_list:
-        print("min", t["min_color"], "max", t["max_color"], t["contrast_lvl"])
-    cv2.imwrite(path, image)
-    scaled_img = pre.get_resize_img(image, 1 / 3)
-    cv2.imshow(name, scaled_img)
-    cv2.waitKey(0)
-
-
-# def get_report(report):
-#     path = "data/reports/contrast/" + name + ".png"
-#     for t in text_list:
-#         print("min", t["min_color"], "max", t["max_color"], t["contrast_lvl"])
-#     cv2.imwrite(path, image)
-#     scaled_img = pre.get_resize_img(image, 1 / 3)
-#     cv2.imshow(name, scaled_img)
-#     cv2.waitKey(0)
-#
-#     report = {}
 
 
 class ContrastCheck:

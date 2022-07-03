@@ -37,7 +37,7 @@ def nesting_inspection(grey, compos, ffl_block):
     :param ffl_block: gradient threshold for flood-fill
     :return: nesting compos
     """
-    print("Non-Text: Nesting Inspection Running...")
+
     nesting_compos = []
     for i, compo in enumerate(compos):
         if compo.height > 50:
@@ -53,7 +53,6 @@ def nesting_inspection(grey, compos, ffl_block):
                     break
             if not replace:
                 nesting_compos += n_compos
-    print("Non-Text: Nesting Inspection Ended")
     return nesting_compos
 
 
@@ -101,7 +100,6 @@ def nested_components_detection(grey, grad_thresh, step_h=10, step_v=10, line_th
 
 
 def compo_filter(compos, min_area, img_shape):
-    print("Non-Text: Component Filter Running...")
     # updated code
     max_height = img_shape[0] * 0.8
     compos_new = []
@@ -118,12 +116,10 @@ def compo_filter(compos, min_area, img_shape):
                 continue
         compos_new.append(compo)
 
-    print("Non-Text: Component Filter End")
     return compos_new
 
 
 def component_detection(binary, min_obj_area):
-    print("Non-Text: Component Detection Running...")
     step_h = 5
     step_v = 2
     mask = np.zeros((binary.shape[0] + 2, binary.shape[1] + 2), dtype=np.uint8)
@@ -151,7 +147,6 @@ def component_detection(binary, min_obj_area):
 
                 compos_all.append(component)
 
-    print("Non-Text: Component Detection Ended")
     return compos_all
 
 
@@ -195,16 +190,14 @@ def is_block(clip, thread=0.15):
 
 
 def compo_block_recognition(binary, compos, block_side_length=0.15):
-    print("Non-Text: Block Recognition Running...")
+
     height, width = binary.shape
     for compo in compos:
         if compo.height / height > block_side_length and compo.width / width > block_side_length:
-            print("clip")
             clip = compo.get_clipped(binary)
             if is_block(clip):
-                print("block")
                 compo.category = 'Block'
-    print("Non-Text: Block Recognition Ended")
+
     return compos
 
 
@@ -212,7 +205,6 @@ def rm_contained_compos_not_in_block(compos):
     """
     remove all components contained by others that are not Block
     """
-    print("Non-Text: Removing Contained Compositions Not In Block...")
     marked = np.full(len(compos), False)
     for i in range(len(compos) - 1):
         for j in range(i + 1, len(compos)):
@@ -225,7 +217,6 @@ def rm_contained_compos_not_in_block(compos):
     for i in range(len(marked)):
         if not marked[i]:
             new_compos.append(compos[i])
-    print("Non-Text: Removed Contained Compositions Not In Block")
     return new_compos
 
 
@@ -248,11 +239,10 @@ def draw_bounding_box(org, components, color=(0, 255, 0), line=2, show=False, wr
     """
     if not show and write_path is None and not is_return:
         return
-    print("Non-Text: Drawing Bounding Boxes...")
+
     board = org.copy()
     for compo in components:
         bbox = compo.get_boundaries()
-        print("bbox ", bbox)
         board = cv2.rectangle(board, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color, line)
     if show:
         # board = pre.get_resize_img(board, 1 / 3)
@@ -262,11 +252,7 @@ def draw_bounding_box(org, components, color=(0, 255, 0), line=2, show=False, wr
             cv2.waitKey(wait_key)
         if wait_key == 0:
             cv2.destroyWindow(name)
-    # if write_path is not None:
-        # board = cv2.resize(board, (1080, 1920))
-        # board = board[100:-110]
-        # cv2.imwrite(write_path, board)
-    print("Non-Text: Drawing Bounding Boxes Ended")
+
     return board
 
 
@@ -282,46 +268,18 @@ def compo_detection(org_image, text_block_img, config):
     # Step 2 element detection
     elements = component_detection(binary, min_obj_area=int(config.THRESHOLD_MIN_ELEMENT_AREA))
 
-    # print("2222222222222222222222222222222222222222222222222222222222222")
-    # for e in elements:
-    #     print(type(e))
-    #     print(e.id, " ", e.boundary, " ", e.width, " ", e.height, " ",
-    #           e.category, " ", e.region_area, " ")
-    # print("22222222222222222222222222222222222222222222222222222222222222")
-
     # Step 3 results refinement
     elements = compo_filter(elements, min_area=int(config.THRESHOLD_MIN_ELEMENT_AREA), img_shape=binary.shape)
     elements = compo_block_recognition(binary, elements)
     Compo.compos_update(elements, text_block_img.shape)
     Compo.compos_containment(elements)
 
-    # print("33333333333333333333333333333333333333333333333333333333333333")
-    # for e in elements:
-    #     print(type(e))
-    #     print(e.id, " ", e.boundary, " ", e.width, " ", e.height, " ",
-    #           e.category, " ", e.region_area, " ")
-    # print("33333333333333333333333333333333333333333333333333333333333333")
-
     # Step 4 check if big compos have nesting elements
     elements += nesting_inspection(grey, elements, ffl_block=config.FF_BLOCK)
     Compo.compos_update(elements, text_block_img.shape)
     detected_img = draw_bounding_box(org_image, elements, show=False,
                                      name='nested inspect', write_path=pjoin(ip_root, name + '.jpg'), wait_key=0)
-    # print("44444444444444444444444444444444444444444444444444444444444444")
-    # for e in elements:
-    #     print(type(e))
-    #     print(e.id, " ", e.boundary, " ", e.width, " ", e.height, " ",
-    #           e.category, " ", e.region_area, " ")
-    # print("44444444444444444444444444444444444444444444444444444444444444")
-
     # Step 7 save detection result
     Compo.compos_update(elements, org_image.shape)
     save_corners_json(pjoin(ip_root, name + '.json'), elements)
-    # print("77777777777777777777777777777777777777777777777777777777777777")
-    # for e in elements:
-    #     print(type(e))
-    #     print(e.id, " ", e.boundary, " ", e.width, " ", e.height, " ",
-    #           e.category, " ", e.region_area, " ")
-    # print("77777777777777777777777777777777777777777777777777777777777777")
-    print("[Compo Detection Completed] Input: %s Output: %s" % (input_img_path, pjoin(ip_root, name + '.json')))
     return elements, detected_img

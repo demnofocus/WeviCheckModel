@@ -103,12 +103,9 @@ def merge_text2(org_img, component_list, text_list):
             compo_left, compo_bottom, compo_right, compo_top = element.get_boundaries()
             cv2.rectangle(img, (int(compo_left), int(compo_bottom)),
                           (int(compo_right), int(compo_top)), (0, 255, 0), 1)
-            print("compo bbox", element.bbox.boundary_left)
+
         elif element.category == 'Text':
             cv2.rectangle(img, (int(element.boundary['left']), int(element.boundary['bottom'])),
                           (int(element.boundary['right']), int(element.boundary['top'])), (0, 255, 0), 1)
-            print("text bbox", element.bbox.boundary_left)
-    # cv2.imshow('merge result', img)
-    # cv2.waitKey(0)
 
     return merged

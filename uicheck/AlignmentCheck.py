@@ -1,7 +1,5 @@
 import cv2
 import random
-import csv
-import preprocess as pre
 
 
 def find_in_nested_list(main_list, element):
@@ -28,29 +26,6 @@ def get_alignment_name(alignment_type):
         return "top_aligned_rows"
     elif alignment_type == 4:
         return "bottom_aligned_rows"
-
-
-def print_report(name, list_of_filtered_lists, org_image):
-    image = org_image.copy()
-    colours = []
-    for list_of_elements_filtered in list_of_filtered_lists:
-        colour = get_new_colour(colours)
-        colours.append(colour)
-        if len(list_of_elements_filtered) > 1:
-            for widget in list_of_elements_filtered:
-                cv2.rectangle(image, (widget.bbox.boundary_left, widget.bbox.boundary_bottom),
-                              (widget.bbox.boundary_right, widget.bbox.boundary_top), colour, 2)
-
-    write_path = 'data/reports/alignment/' + name + '.jpg'
-
-    with open('data/reports/alignment/' + name + '.csv', 'w', encoding='UTF8', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerows(list_of_filtered_lists)
-
-    cv2.imwrite(write_path, image)
-    scaled_img = pre.get_resize_img(image, 1 / 3)
-    cv2.imshow(name, scaled_img)
-    cv2.waitKey(0)
 
 
 def get_report(org_image, list_of_filtered_lists):
@@ -111,11 +86,6 @@ class AlignmentCheck:
                                 < threshold) \
                                     and not find_in_nested_list(aligned_ele_list, element2):
                                 row.append(element2)
-                        else:
-                            print("not valid")
                 aligned_ele_list.append(row)
 
-        # name = str(image_id) + "_" + alignment_type
-        # self.alignment_list.append([name, rows_list])
-        # print_report(name, rows_list, image)
         return get_report(image, aligned_ele_list)
