@@ -1,0 +1,489 @@
+{
+    "img_shape": [
+        1803,
+        1755,
+        3
+    ],
+    "texts": [
+        {
+            "id": "dfe697ea-f49e-11ec-924f-d8c497926850",
+            "content": "ConnectED",
+            "boundary_left": 62,
+            "boundary_bottom": 16,
+            "boundary_right": 176,
+            "boundary_top": 42,
+            "width": 114,
+            "height": 26
+        },
+        {
+            "id": "dfe6e5dc-f49e-11ec-a20a-d8c497926850",
+            "content": "My Profile",
+            "boundary_left": 229,
+            "boundary_bottom": 105,
+            "boundary_right": 343,
+            "boundary_top": 141,
+            "width": 114,
+            "height": 36
+        },
+        {
+            "id": "dfe6e5dd-f49e-11ec-92ea-d8c497926850",
+            "content": "Write a new post!",
+            "boundary_left": 516,
+            "boundary_bottom": 117,
+            "boundary_right": 667,
+            "boundary_top": 142,
+            "width": 151,
+            "height": 25
+        },
+        {
+            "id": "dfe6e5de-f49e-11ec-a14e-d8c497926850",
+            "content": "Upcoming Events:",
+            "boundary_left": 1459,
+            "boundary_bottom": 109,
+            "boundary_right": 1612,
+            "boundary_top": 138,
+            "width": 153,
+            "height": 29
+        },
+        {
+            "id": "dfe6e5df-f49e-11ec-9e88-d8c497926850",
+            "content": "Status: Feeling  Grear",
+            "boundary_left": 560,
+            "boundary_bottom": 165,
+            "boundary_right": 733,
+            "boundary_top": 199,
+            "width": 173,
+            "height": 34
+        },
+        {
+            "id": "dfe6e5e0-f49e-11ec-8813-d8c497926850",
+            "content": "Post",
+            "boundary_left": 559,
+            "boundary_bottom": 235,
+            "boundary_right": 601,
+            "boundary_top": 255,
+            "width": 42,
+            "height": 20
+        },
+        {
+            "id": "dfe6e5e1-f49e-11ec-9388-d8c497926850",
+            "content": "Designer, UI",
+            "boundary_left": 143,
+            "boundary_bottom": 327,
+            "boundary_right": 250,
+            "boundary_top": 355,
+            "width": 107,
+            "height": 28
+        },
+        {
+            "id": "dfe6e5e2-f49e-11ec-8cb8-d8c497926850",
+            "content": "min",
+            "boundary_left": 1335,
+            "boundary_bottom": 327,
+            "boundary_right": 1369,
+            "boundary_top": 343,
+            "width": 34,
+            "height": 16
+        },
+        {
+            "id": "dfe6e5e3-f49e-11ec-9430-d8c497926850",
+            "content": "John Doe",
+            "boundary_left": 600,
+            "boundary_bottom": 338,
+            "boundary_right": 708,
+            "boundary_top": 366,
+            "width": 108,
+            "height": 28
+        },
+        {
+            "id": "dfe6e5e4-f49e-11ec-bb8d-d8c497926850",
+            "content": "London; UK",
+            "boundary_left": 149,
+            "boundary_bottom": 373,
+            "boundary_right": 249,
+            "boundary_top": 393,
+            "width": 100,
+            "height": 20
+        },
+        {
+            "id": "dfe6e5e5-f49e-11ec-84ca-d8c497926850",
+            "content": "April 1, 1988",
+            "boundary_left": 148,
+            "boundary_bottom": 414,
+            "boundary_right": 256,
+            "boundary_top": 440,
+            "width": 108,
+            "height": 26
+        },
+        {
+            "id": "dfe6e5e6-f49e-11ec-8dc0-d8c497926850",
+            "content": "Greatness is an enjoyment: It is as fundamental as craving: There is genuinely nothing to be said about it; It looks like the aroma of a rose: you can smell it and that is all. Energetic Rose Dayl",
+            "boundary_left": 515,
+            "boundary_bottom": 450,
+            "boundary_right": 1366,
+            "boundary_top": 506,
+            "width": 851,
+            "height": 56
+        },
+        {
+            "id": "dfe6e5e7-f49e-11ec-808d-d8c497926850",
+            "content": "Awards Ceremony",
+            "boundary_left": 1457,
+            "boundary_bottom": 443,
+            "boundary_right": 1614,
+            "boundary_top": 470,
+            "width": 157,
+            "height": 27
+        },
+        {
+            "id": "dfe6e5e8-f49e-11ec-b431-d8c497926850",
+            "content": "Friday 15.00",
+            "boundary_left": 1484,
+            "boundary_bottom": 488,
+            "boundary_right": 1587,
+            "boundary_top": 514,
+            "width": 103,
+            "height": 26
+        },
+        {
+            "id": "dfe6e5e9-f49e-11ec-9039-d8c497926850",
+            "content": "My Groups",
+            "boundary_left": 148,
+            "boundary_bottom": 493,
+            "boundary_right": 244,
+            "boundary_top": 518,
+            "width": 96,
+            "height": 25
+        },
+        {
+            "id": "dfe6e5ea-f49e-11ec-bc2e-d8c497926850",
+            "content": "My Evennt",
+            "boundary_left": 148,
+            "boundary_bottom": 538,
+            "boundary_right": 240,
+            "boundary_top": 562,
+            "width": 92,
+            "height": 24
+        },
+        {
+            "id": "dfe6e5eb-f49e-11ec-aada-d8c497926850",
+            "content": "Info",
+            "boundary_left": 1517,
+            "boundary_bottom": 541,
+            "boundary_right": 1555,
+            "boundary_top": 561,
+            "width": 38,
+            "height": 20
+        },
+        {
+            "id": "dfe6e5ec-f49e-11ec-902a-d8c497926850",
+            "content": "My Photos",
+            "boundary_left": 150,
+            "boundary_bottom": 582,
+            "boundary_right": 240,
+            "boundary_top": 606,
+            "width": 90,
+            "height": 24
+        },
+        {
+            "id": "dfe6e5ed-f49e-11ec-8427-d8c497926850",
+            "content": "Friend Reqest",
+            "boundary_left": 1478,
+            "boundary_bottom": 635,
+            "boundary_right": 1596,
+            "boundary_top": 664,
+            "width": 118,
+            "height": 29
+        },
+        {
+            "id": "dfe6e5ee-f49e-11ec-b41a-d8c497926850",
+            "content": "Interests",
+            "boundary_left": 103,
+            "boundary_bottom": 663,
+            "boundary_right": 179,
+            "boundary_top": 683,
+            "width": 76,
+            "height": 20
+        },
+        {
+            "id": "dfe6e5ef-f49e-11ec-b0c4-d8c497926850",
+            "content": "World News",
+            "boundary_left": 113,
+            "boundary_bottom": 711,
+            "boundary_right": 197,
+            "boundary_top": 725,
+            "width": 84,
+            "height": 14
+        },
+        {
+            "id": "dfe6e5f0-f49e-11ec-93c3-d8c497926850",
+            "content": "WBSchools",
+            "boundary_left": 215,
+            "boundary_bottom": 711,
+            "boundary_right": 289,
+            "boundary_top": 725,
+            "width": 74,
+            "height": 14
+        },
+        {
+            "id": "dfe6e5f1-f49e-11ec-9177-d8c497926850",
+            "content": "Labels GGames Frlends Food Design",
+            "boundary_left": 253,
+            "boundary_bottom": 711,
+            "boundary_right": 428,
+            "boundary_top": 757,
+            "width": 175,
+            "height": 46
+        },
+        {
+            "id": "dfe6e5f2-f49e-11ec-97ec-d8c497926850",
+            "content": "Friends",
+            "boundary_left": 113,
+            "boundary_bottom": 737,
+            "boundary_right": 167,
+            "boundary_top": 751,
+            "width": 54,
+            "height": 14
+        },
+        {
+            "id": "dfe6e5f3-f49e-11ec-86fb-d8c497926850",
+            "content": "(Games",
+            "boundary_left": 185,
+            "boundary_bottom": 737,
+            "boundary_right": 233,
+            "boundary_top": 751,
+            "width": 48,
+            "height": 14
+        },
+        {
+            "id": "dfe6e5f4-f49e-11ec-aac9-d8c497926850",
+            "content": "Art",
+            "boundary_left": 115,
+            "boundary_bottom": 761,
+            "boundary_right": 137,
+            "boundary_top": 777,
+            "width": 22,
+            "height": 16
+        },
+        {
+            "id": "dfe6e5f5-f49e-11ec-b3fc-d8c497926850",
+            "content": "Photos",
+            "boundary_left": 157,
+            "boundary_bottom": 761,
+            "boundary_right": 205,
+            "boundary_top": 777,
+            "width": 48,
+            "height": 16
+        },
+        {
+            "id": "dfe6e5f6-f49e-11ec-87ec-d8c497926850",
+            "content": "Jane Doe",
+            "boundary_left": 1494,
+            "boundary_bottom": 790,
+            "boundary_right": 1576,
+            "boundary_top": 814,
+            "width": 82,
+            "height": 24
+        },
+        {
+            "id": "dfe6e5f7-f49e-11ec-90cc-d8c497926850",
+            "content": "Your Aletsl",
+            "boundary_left": 102,
+            "boundary_bottom": 844,
+            "boundary_right": 198,
+            "boundary_top": 868,
+            "width": 96,
+            "height": 24
+        },
+        {
+            "id": "dfe6e5f8-f49e-11ec-a4ad-d8c497926850",
+            "content": "Like",
+            "boundary_left": 564,
+            "boundary_bottom": 836,
+            "boundary_right": 604,
+            "boundary_top": 860,
+            "width": 40,
+            "height": 24
+        },
+        {
+            "id": "dfe6e5f9-f49e-11ec-a6c8-d8c497926850",
+            "content": "Comment",
+            "boundary_left": 666,
+            "boundary_bottom": 838,
+            "boundary_right": 751,
+            "boundary_top": 859,
+            "width": 85,
+            "height": 21
+        },
+        {
+            "id": "dfe6e5fa-f49e-11ec-a01d-d8c497926850",
+            "content": "People are looking atyour profile. Find out who by activating Premium Account:",
+            "boundary_left": 103,
+            "boundary_bottom": 884,
+            "boundary_right": 516,
+            "boundary_top": 940,
+            "width": 413,
+            "height": 56
+        },
+        {
+            "id": "dfe6e5fb-f49e-11ec-bc87-d8c497926850",
+            "content": "16 min",
+            "boundary_left": 1308,
+            "boundary_bottom": 944,
+            "boundary_right": 1370,
+            "boundary_top": 968,
+            "width": 62,
+            "height": 24
+        },
+        {
+            "id": "dfe6e5fc-f49e-11ec-9424-d8c497926850",
+            "content": "John Duddly",
+            "boundary_left": 597,
+            "boundary_bottom": 953,
+            "boundary_right": 746,
+            "boundary_top": 992,
+            "width": 149,
+            "height": 39
+        },
+        {
+            "id": "dfe6e5fd-f49e-11ec-8526-d8c497926850",
+            "content": "Your Points: 120",
+            "boundary_left": 1464,
+            "boundary_bottom": 956,
+            "boundary_right": 1606,
+            "boundary_top": 983,
+            "width": 142,
+            "height": 27
+        },
+        {
+            "id": "dfe6e5fe-f49e-11ec-a568-d8c497926850",
+            "content": "You can regret a lot of things but you\"Il never regret being kind: Have a great day alll",
+            "boundary_left": 516,
+            "boundary_bottom": 1071,
+            "boundary_right": 1195,
+            "boundary_top": 1103,
+            "width": 679,
+            "height": 32
+        },
+        {
+            "id": "dfe6e5ff-f49e-11ec-b55d-d8c497926850",
+            "content": "We use cookies to provide necsessary site functionality and improve your experience.",
+            "boundary_left": 1420,
+            "boundary_bottom": 1099,
+            "boundary_right": 1652,
+            "boundary_top": 1205,
+            "width": 232,
+            "height": 106
+        },
+        {
+            "id": "dfe6e600-f49e-11ec-85fa-d8c497926850",
+            "content": "Like",
+            "boundary_left": 558,
+            "boundary_bottom": 1128,
+            "boundary_right": 598,
+            "boundary_top": 1152,
+            "width": 40,
+            "height": 24
+        },
+        {
+            "id": "dfe6e601-f49e-11ec-8f74-d8c497926850",
+            "content": "Comment",
+            "boundary_left": 661,
+            "boundary_bottom": 1131,
+            "boundary_right": 747,
+            "boundary_top": 1151,
+            "width": 86,
+            "height": 20
+        },
+        {
+            "id": "dfe6e602-f49e-11ec-a3f9-d8c497926850",
+            "content": "32 min",
+            "boundary_left": 1308,
+            "boundary_bottom": 1226,
+            "boundary_right": 1370,
+            "boundary_top": 1250,
+            "width": 62,
+            "height": 24
+        },
+        {
+            "id": "dfe6e603-f49e-11ec-b794-d8c497926850",
+            "content": "Angie Jane",
+            "boundary_left": 606,
+            "boundary_bottom": 1242,
+            "boundary_right": 722,
+            "boundary_top": 1274,
+            "width": 116,
+            "height": 32
+        },
+        {
+            "id": "dfe6e604-f49e-11ec-876c-d8c497926850",
+            "content": "Did you know?",
+            "boundary_left": 516,
+            "boundary_bottom": 1358,
+            "boundary_right": 640,
+            "boundary_top": 1384,
+            "width": 124,
+            "height": 26
+        },
+        {
+            "id": "dfe6e605-f49e-11ec-bfdb-d8c497926850",
+            "content": "Lorem ipsum dolor sit amet; consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:",
+            "boundary_left": 516,
+            "boundary_bottom": 1402,
+            "boundary_right": 1358,
+            "boundary_top": 1478,
+            "width": 842,
+            "height": 76
+        },
+        {
+            "id": "dfe6e606-f49e-11ec-a044-d8c497926850",
+            "content": "Like",
+            "boundary_left": 559,
+            "boundary_bottom": 1507,
+            "boundary_right": 599,
+            "boundary_top": 1527,
+            "width": 40,
+            "height": 20
+        },
+        {
+            "id": "dfe6e607-f49e-11ec-a71e-d8c497926850",
+            "content": "Comment",
+            "boundary_left": 659,
+            "boundary_bottom": 1507,
+            "boundary_right": 747,
+            "boundary_top": 1527,
+            "width": 88,
+            "height": 20
+        },
+        {
+            "id": "dfe6e608-f49e-11ec-8248-d8c497926850",
+            "content": "About uS",
+            "boundary_left": 16,
+            "boundary_bottom": 1636,
+            "boundary_right": 110,
+            "boundary_top": 1660,
+            "width": 94,
+            "height": 24
+        },
+        {
+            "id": "dfe6e609-f49e-11ec-9301-d8c497926850",
+            "content": "Privacy Terms * Advertising Ad choices * Cookies * Megaa @ 2022",
+            "boundary_left": 12,
+            "boundary_bottom": 1680,
+            "boundary_right": 554,
+            "boundary_top": 1711,
+            "width": 542,
+            "height": 31
+        },
+        {
+            "id": "dfe6e60a-f49e-11ec-937c-d8c497926850",
+            "content": "Powered by w3.css",
+            "boundary_left": 14,
+            "boundary_bottom": 1762,
+            "boundary_right": 174,
+            "boundary_top": 1788,
+            "width": 160,
+            "height": 26
+        }
+    ]
+}

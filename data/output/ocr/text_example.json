@@ -1,0 +1,129 @@
+{
+    "img_shape": [
+        949,
+        1900,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Corso - Landing Page Documentation",
+            "boundary_left": 19,
+            "boundary_bottom": 54,
+            "boundary_right": 302,
+            "boundary_top": 140,
+            "width": 283,
+            "height": 86
+        },
+        {
+            "id": 1,
+            "content": "INTRODUCTION Hello and thank you for using Corso Training Course Landing Page Template: Corso is a landing page template built with HTML and Bootstrap featuring image slider, details lightbox, video lightbox; text slider, dropdown navigation, extra pages and working forms Built with Bootstrap; HTML, CSS, PHP and JavaScript it will help you achieve your online marketing goals in a beautiful and efficient manner. Frameworks and toolkits used: Bootstrap, Popper, jQuery, jQuery Easing; Validator; Magnific Popup, Swiper; The Final Countdown: You can edit the template's Html, Css, Php, Js files with your preferred text and code editor: Notepad++, Visual Code; Sublime or any other._ For image editing you can use Adobe Photoshop or any other graphic editor ofyour choice:",
+            "boundary_left": 351,
+            "boundary_bottom": 56,
+            "boundary_right": 1854,
+            "boundary_top": 366,
+            "width": 1503,
+            "height": 310
+        },
+        {
+            "id": 2,
+            "content": "INTRODUCTION",
+            "boundary_left": 20,
+            "boundary_bottom": 202,
+            "boundary_right": 172,
+            "boundary_top": 226,
+            "width": 152,
+            "height": 24
+        },
+        {
+            "id": 3,
+            "content": "FILES STRUCTURE",
+            "boundary_left": 22,
+            "boundary_bottom": 248,
+            "boundary_right": 186,
+            "boundary_top": 272,
+            "width": 164,
+            "height": 24
+        },
+        {
+            "id": 4,
+            "content": "IMAGES",
+            "boundary_left": 34,
+            "boundary_bottom": 294,
+            "boundary_right": 110,
+            "boundary_top": 318,
+            "width": 76,
+            "height": 24
+        },
+        {
+            "id": 5,
+            "content": "ICONS",
+            "boundary_left": 20,
+            "boundary_bottom": 338,
+            "boundary_right": 86,
+            "boundary_top": 362,
+            "width": 66,
+            "height": 24
+        },
+        {
+            "id": 6,
+            "content": "CONTACT FORMS",
+            "boundary_left": 10,
+            "boundary_bottom": 384,
+            "boundary_right": 172,
+            "boundary_top": 408,
+            "width": 162,
+            "height": 24
+        },
+        {
+            "id": 7,
+            "content": "SUPPORT",
+            "boundary_left": 22,
+            "boundary_bottom": 430,
+            "boundary_right": 112,
+            "boundary_top": 454,
+            "width": 90,
+            "height": 24
+        },
+        {
+            "id": 8,
+            "content": "FILES STRUCTURE",
+            "boundary_left": 354,
+            "boundary_bottom": 530,
+            "boundary_right": 730,
+            "boundary_top": 578,
+            "width": 376,
+            "height": 48
+        },
+        {
+            "id": 9,
+            "content": "Documentation is the folder of this help file: Web contains the html, cSS, js and php files of the template",
+            "boundary_left": 354,
+            "boundary_bottom": 606,
+            "boundary_right": 886,
+            "boundary_top": 664,
+            "width": 532,
+            "height": 58
+        },
+        {
+            "id": 10,
+            "content": "Web folder includes index.html file which you will use to open the template and the extra pages: article-detailshtml; privacy-policy html, terms-conditions html: Besides index.html, you will also find the following folders:",
+            "boundary_left": 351,
+            "boundary_bottom": 678,
+            "boundary_right": 1824,
+            "boundary_top": 738,
+            "width": 1473,
+            "height": 60
+        },
+        {
+            "id": 11,
+            "content": "Css - Bootstrap, Font Awesome, Magnific Popup; Swiper and the template's custom stylesheet styles.css Images Images used throughout the template including the favicon and logo Js - JavaScript files for Bootstrap, Popper, jQuery  jQuery Easing, Magnific Popup, Swiper, Validator, and Corso's custom scripts: scripts js Php PHP script files for the contact forms Webfonts Font Awesome files Google Chrome",
+            "boundary_left": 399,
+            "boundary_bottom": 754,
+            "boundary_right": 1591,
+            "boundary_top": 943,
+            "width": 1192,
+            "height": 189
+        }
+    ]
+}

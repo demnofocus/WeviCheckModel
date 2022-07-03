@@ -1,0 +1,139 @@
+{
+    "img_shape": [
+        577,
+        473,
+        3
+    ],
+    "texts": [
+        {
+            "id": "8d2f9199-fafd-11ec-992d-d8c497926850",
+            "content": "Greatness enjoymnt_ Ttundaments crawng nere genuinelly nothin to looks like the Tom? Ofatose Yov ran sMe and that @s all. Energetic Rose",
+            "boundary_left": 20,
+            "boundary_bottom": 11,
+            "boundary_right": 361,
+            "boundary_top": 39,
+            "width": 341,
+            "height": 28
+        },
+        {
+            "id": "8d2f919a-fafd-11ec-a498-d8c497926850",
+            "content": "said about",
+            "boundary_left": 374,
+            "boundary_bottom": 14,
+            "boundary_right": 420,
+            "boundary_top": 22,
+            "width": 46,
+            "height": 8
+        },
+        {
+            "id": "8d2f919b-fafd-11ec-b4b3-d8c497926850",
+            "content": "Friend Reqest",
+            "boundary_left": 21,
+            "boundary_bottom": 115,
+            "boundary_right": 85,
+            "boundary_top": 127,
+            "width": 64,
+            "height": 12
+        },
+        {
+            "id": "8d2f919c-fafd-11ec-ba96-d8c497926850",
+            "content": "Awards Ceremony John Da:",
+            "boundary_left": 19,
+            "boundary_bottom": 156,
+            "boundary_right": 133,
+            "boundary_top": 195,
+            "width": 114,
+            "height": 39
+        },
+        {
+            "id": "8d2f919d-fafd-11ec-a599-d8c497926850",
+            "content": "Fconlc",
+            "boundary_left": 40,
+            "boundary_bottom": 230,
+            "boundary_right": 72,
+            "boundary_top": 238,
+            "width": 32,
+            "height": 8
+        },
+        {
+            "id": "8d2f919e-fafd-11ec-b77f-d8c497926850",
+            "content": "Connected",
+            "boundary_left": 21,
+            "boundary_bottom": 273,
+            "boundary_right": 73,
+            "boundary_top": 285,
+            "width": 52,
+            "height": 12
+        },
+        {
+            "id": "8d2f919f-fafd-11ec-9fc0-d8c497926850",
+            "content": "MY Groups",
+            "boundary_left": 22,
+            "boundary_bottom": 318,
+            "boundary_right": 70,
+            "boundary_top": 326,
+            "width": 48,
+            "height": 8
+        },
+        {
+            "id": "8d2f91a0-fafd-11ec-8329-d8c497926850",
+            "content": "My Evennt",
+            "boundary_left": 21,
+            "boundary_bottom": 357,
+            "boundary_right": 71,
+            "boundary_top": 369,
+            "width": 50,
+            "height": 12
+        },
+        {
+            "id": "8d2f91a1-fafd-11ec-aff8-d8c497926850",
+            "content": "My Photos",
+            "boundary_left": 21,
+            "boundary_bottom": 399,
+            "boundary_right": 71,
+            "boundary_top": 411,
+            "width": 50,
+            "height": 12
+        },
+        {
+            "id": "8d2fb882-fafd-11ec-a9ec-d8c497926850",
+            "content": "WJschooks",
+            "boundary_left": 21,
+            "boundary_bottom": 441,
+            "boundary_right": 73,
+            "boundary_top": 453,
+            "width": 52,
+            "height": 12
+        },
+        {
+            "id": "8d2fb883-fafd-11ec-a508-d8c497926850",
+            "content": "Interests",
+            "boundary_left": 20,
+            "boundary_bottom": 482,
+            "boundary_right": 63,
+            "boundary_top": 496,
+            "width": 43,
+            "height": 14
+        },
+        {
+            "id": "8d2fb884-fafd-11ec-8ceb-d8c497926850",
+            "content": "Commentts",
+            "boundary_left": 22,
+            "boundary_bottom": 526,
+            "boundary_right": 74,
+            "boundary_top": 534,
+            "width": 52,
+            "height": 8
+        },
+        {
+            "id": "8d2fb885-fafd-11ec-a0dd-d8c497926850",
+            "content": "About Us",
+            "boundary_left": 22,
+            "boundary_bottom": 546,
+            "boundary_right": 64,
+            "boundary_top": 554,
+            "width": 42,
+            "height": 8
+        }
+    ]
+}

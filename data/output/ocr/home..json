@@ -1,0 +1,1429 @@
+{
+    "img_shape": [
+        8671,
+        1735,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "SEO Training Course",
+            "boundary_left": 498,
+            "boundary_bottom": 102,
+            "boundary_right": 1260,
+            "boundary_top": 230,
+            "width": 762,
+            "height": 128
+        },
+        {
+            "id": 1,
+            "content": "; to SEO",
+            "boundary_left": 1020,
+            "boundary_bottom": 228,
+            "boundary_right": 1099,
+            "boundary_top": 252,
+            "width": 79,
+            "height": 24
+        },
+        {
+            "id": 2,
+            "content": "SEO training course t0 change that",
+            "boundary_left": 729,
+            "boundary_bottom": 262,
+            "boundary_right": 1058,
+            "boundary_top": 286,
+            "width": 329,
+            "height": 24
+        },
+        {
+            "id": 3,
+            "content": "DISCOVER",
+            "boundary_left": 932,
+            "boundary_bottom": 336,
+            "boundary_right": 1018,
+            "boundary_top": 361,
+            "width": 86,
+            "height": 25
+        },
+        {
+            "id": 4,
+            "content": "Complete name",
+            "boundary_left": 939,
+            "boundary_bottom": 1190,
+            "boundary_right": 1065,
+            "boundary_top": 1214,
+            "width": 126,
+            "height": 24
+        },
+        {
+            "id": 5,
+            "content": "Register Using The Form",
+            "boundary_left": 232,
+            "boundary_bottom": 1189,
+            "boundary_right": 743,
+            "boundary_top": 1253,
+            "width": 511,
+            "height": 64
+        },
+        {
+            "id": 6,
+            "content": "It's easy to register for",
+            "boundary_left": 228,
+            "boundary_bottom": 1271,
+            "boundary_right": 415,
+            "boundary_top": 1295,
+            "width": 187,
+            "height": 24
+        },
+        {
+            "id": 7,
+            "content": "lout the form and click",
+            "boundary_left": 567,
+            "boundary_bottom": 1264,
+            "boundary_right": 753,
+            "boundary_top": 1289,
+            "width": 186,
+            "height": 25
+        },
+        {
+            "id": 8,
+            "content": "~Email address",
+            "boundary_left": 939,
+            "boundary_bottom": 1264,
+            "boundary_right": 1052,
+            "boundary_top": 1289,
+            "width": 113,
+            "height": 25
+        },
+        {
+            "id": 9,
+            "content": "SEO training",
+            "boundary_left": 675,
+            "boundary_bottom": 1298,
+            "boundary_right": 787,
+            "boundary_top": 1322,
+            "width": 112,
+            "height": 24
+        },
+        {
+            "id": 10,
+            "content": "~courses",
+            "boundary_left": 229,
+            "boundary_bottom": 1333,
+            "boundary_right": 305,
+            "boundary_top": 1349,
+            "width": 76,
+            "height": 16
+        },
+        {
+            "id": 11,
+            "content": "in the industrv",
+            "boundary_left": 302,
+            "boundary_bottom": 1325,
+            "boundary_right": 422,
+            "boundary_top": 1350,
+            "width": 120,
+            "height": 25
+        },
+        {
+            "id": 12,
+            "content": "Phone number",
+            "boundary_left": 939,
+            "boundary_bottom": 1346,
+            "boundary_right": 1052,
+            "boundary_top": 1370,
+            "width": 113,
+            "height": 24
+        },
+        {
+            "id": 13,
+            "content": "It's safe with",
+            "boundary_left": 248,
+            "boundary_bottom": 1420,
+            "boundary_right": 367,
+            "boundary_top": 1444,
+            "width": 119,
+            "height": 24
+        },
+        {
+            "id": 14,
+            "content": "Ube used",
+            "boundary_left": 486,
+            "boundary_bottom": 1428,
+            "boundary_right": 563,
+            "boundary_top": 1443,
+            "width": 77,
+            "height": 15
+        },
+        {
+            "id": 15,
+            "content": "for marketing",
+            "boundary_left": 560,
+            "boundary_bottom": 1427,
+            "boundary_right": 679,
+            "boundary_top": 1451,
+            "width": 119,
+            "height": 24
+        },
+        {
+            "id": 16,
+            "content": "FEATURED IN",
+            "boundary_left": 817,
+            "boundary_bottom": 1718,
+            "boundary_right": 936,
+            "boundary_top": 1742,
+            "width": 119,
+            "height": 24
+        },
+        {
+            "id": 17,
+            "content": "U: GreenApp",
+            "boundary_left": 280,
+            "boundary_bottom": 1762,
+            "boundary_right": 465,
+            "boundary_top": 1807,
+            "width": 185,
+            "height": 45
+        },
+        {
+            "id": 18,
+            "content": "Voltmeter",
+            "boundary_left": 573,
+            "boundary_bottom": 1772,
+            "boundary_right": 713,
+            "boundary_top": 1797,
+            "width": 140,
+            "height": 25
+        },
+        {
+            "id": 19,
+            "content": "Keyrunner",
+            "boundary_left": 817,
+            "boundary_bottom": 1772,
+            "boundary_right": 970,
+            "boundary_top": 1803,
+            "width": 153,
+            "height": 31
+        },
+        {
+            "id": 20,
+            "content": "4 Amplifier",
+            "boundary_left": 1039,
+            "boundary_bottom": 1764,
+            "boundary_right": 1230,
+            "boundary_top": 1812,
+            "width": 191,
+            "height": 48
+        },
+        {
+            "id": 21,
+            "content": "Upstart",
+            "boundary_left": 1339,
+            "boundary_bottom": 1772,
+            "boundary_right": 1458,
+            "boundary_top": 1803,
+            "width": 119,
+            "height": 31
+        },
+        {
+            "id": 22,
+            "content": "Fm",
+            "boundary_left": 952,
+            "boundary_bottom": 1995,
+            "boundary_right": 1025,
+            "boundary_top": 2035,
+            "width": 73,
+            "height": 40
+        },
+        {
+            "id": 23,
+            "content": "Your Trainer",
+            "boundary_left": 1154,
+            "boundary_bottom": 1987,
+            "boundary_right": 1406,
+            "boundary_top": 2036,
+            "width": 252,
+            "height": 49
+        },
+        {
+            "id": 24,
+            "content": "everybodyl",
+            "boundary_left": 980,
+            "boundary_bottom": 2064,
+            "boundary_right": 1072,
+            "boundary_top": 2088,
+            "width": 92,
+            "height": 24
+        },
+        {
+            "id": 25,
+            "content": "be vour main instructor durnig",
+            "boundary_left": 1244,
+            "boundary_bottom": 2064,
+            "boundary_right": 1499,
+            "boundary_top": 2088,
+            "width": 255,
+            "height": 24
+        },
+        {
+            "id": 26,
+            "content": "the SEO training course. | have more than 10 years experience in",
+            "boundary_left": 953,
+            "boundary_bottom": 2091,
+            "boundary_right": 1499,
+            "boundary_top": 2122,
+            "width": 546,
+            "height": 31
+        },
+        {
+            "id": 27,
+            "content": ".Register",
+            "boundary_left": 1332,
+            "boundary_bottom": 2125,
+            "boundary_right": 1411,
+            "boundary_top": 2149,
+            "width": 79,
+            "height": 24
+        },
+        {
+            "id": 28,
+            "content": "and let's meet;",
+            "boundary_left": 1014,
+            "boundary_bottom": 2152,
+            "boundary_right": 1140,
+            "boundary_top": 2176,
+            "width": 126,
+            "height": 24
+        },
+        {
+            "id": 29,
+            "content": "Teaching students all about the beste SEO techniques is something",
+            "boundary_left": 951,
+            "boundary_bottom": 2192,
+            "boundary_right": 1513,
+            "boundary_top": 2231,
+            "width": 562,
+            "height": 39
+        },
+        {
+            "id": 30,
+            "content": "What Will You Learn In Our SEO",
+            "boundary_left": 558,
+            "boundary_bottom": 2495,
+            "boundary_right": 1203,
+            "boundary_top": 2551,
+            "width": 645,
+            "height": 56
+        },
+        {
+            "id": 31,
+            "content": "Focused Training Course",
+            "boundary_left": 626,
+            "boundary_bottom": 2556,
+            "boundary_right": 1135,
+            "boundary_top": 2605,
+            "width": 509,
+            "height": 49
+        },
+        {
+            "id": 32,
+            "content": "Optimizing your",
+            "boundary_left": 309,
+            "boundary_bottom": 2673,
+            "boundary_right": 496,
+            "boundary_top": 2704,
+            "width": 187,
+            "height": 31
+        },
+        {
+            "id": 33,
+            "content": "for mobile devices",
+            "boundary_left": 539,
+            "boundary_bottom": 2673,
+            "boundary_right": 747,
+            "boundary_top": 2698,
+            "width": 208,
+            "height": 25
+        },
+        {
+            "id": 34,
+            "content": "Analvse vour",
+            "boundary_left": 1000,
+            "boundary_bottom": 2673,
+            "boundary_right": 1153,
+            "boundary_top": 2698,
+            "width": 153,
+            "height": 25
+        },
+        {
+            "id": 35,
+            "content": "existing search traffic",
+            "boundary_left": 1147,
+            "boundary_bottom": 2668,
+            "boundary_right": 1398,
+            "boundary_top": 2707,
+            "width": 251,
+            "height": 39
+        },
+        {
+            "id": 36,
+            "content": "One of the kevs of areat SEO",
+            "boundary_left": 309,
+            "boundary_bottom": 2714,
+            "boundary_right": 557,
+            "boundary_top": 2738,
+            "width": 248,
+            "height": 24
+        },
+        {
+            "id": 37,
+            "content": "mobile friendly",
+            "boundary_left": 646,
+            "boundary_bottom": 2708,
+            "boundary_right": 776,
+            "boundary_top": 2747,
+            "width": 130,
+            "height": 39
+        },
+        {
+            "id": 38,
+            "content": "~A aood action plan comes out of understar",
+            "boundary_left": 993,
+            "boundary_bottom": 2714,
+            "boundary_right": 1350,
+            "boundary_top": 2738,
+            "width": 357,
+            "height": 24
+        },
+        {
+            "id": 39,
+            "content": "Jina where vour",
+            "boundary_left": 1359,
+            "boundary_bottom": 2714,
+            "boundary_right": 1485,
+            "boundary_top": 2738,
+            "width": 126,
+            "height": 24
+        },
+        {
+            "id": 40,
+            "content": "Understand",
+            "boundary_left": 309,
+            "boundary_bottom": 2822,
+            "boundary_right": 449,
+            "boundary_top": 2847,
+            "width": 140,
+            "height": 25
+        },
+        {
+            "id": 41,
+            "content": "users Search",
+            "boundary_left": 499,
+            "boundary_bottom": 2822,
+            "boundary_right": 645,
+            "boundary_top": 2847,
+            "width": 146,
+            "height": 25
+        },
+        {
+            "id": 42,
+            "content": "Keep updated",
+            "boundary_left": 1000,
+            "boundary_bottom": 2822,
+            "boundary_right": 1160,
+            "boundary_top": 2847,
+            "width": 160,
+            "height": 25
+        },
+        {
+            "id": 43,
+            "content": "latest chandes",
+            "boundary_left": 1251,
+            "boundary_bottom": 2822,
+            "boundary_right": 1417,
+            "boundary_top": 2847,
+            "width": 166,
+            "height": 25
+        },
+        {
+            "id": 44,
+            "content": "It\"s not enouah anvmore to find relevant industrv kevwords and",
+            "boundary_left": 309,
+            "boundary_bottom": 2863,
+            "boundary_right": 828,
+            "boundary_top": 2887,
+            "width": 519,
+            "height": 24
+        },
+        {
+            "id": 45,
+            "content": "Gooale chanaes",
+            "boundary_left": 1000,
+            "boundary_bottom": 2863,
+            "boundary_right": 1146,
+            "boundary_top": 2887,
+            "width": 146,
+            "height": 24
+        },
+        {
+            "id": 46,
+            "content": "indexing algorithm twice a year so",
+            "boundary_left": 1224,
+            "boundary_bottom": 2863,
+            "boundary_right": 1512,
+            "boundary_top": 2894,
+            "width": 288,
+            "height": 31
+        },
+        {
+            "id": 47,
+            "content": "; of conte",
+            "boundary_left": 472,
+            "boundary_bottom": 2897,
+            "boundary_right": 550,
+            "boundary_top": 2921,
+            "width": 78,
+            "height": 24
+        },
+        {
+            "id": 48,
+            "content": "Write for humans",
+            "boundary_left": 309,
+            "boundary_bottom": 2971,
+            "boundary_right": 503,
+            "boundary_top": 2996,
+            "width": 194,
+            "height": 25
+        },
+        {
+            "id": 49,
+            "content": "'engines",
+            "boundary_left": 641,
+            "boundary_bottom": 2971,
+            "boundary_right": 740,
+            "boundary_top": 2996,
+            "width": 99,
+            "height": 25
+        },
+        {
+            "id": 50,
+            "content": "Learn",
+            "boundary_left": 1000,
+            "boundary_bottom": 2971,
+            "boundary_right": 1072,
+            "boundary_top": 2996,
+            "width": 72,
+            "height": 25
+        },
+        {
+            "id": 51,
+            "content": "important ranking factors",
+            "boundary_left": 1169,
+            "boundary_bottom": 2971,
+            "boundary_right": 1458,
+            "boundary_top": 2996,
+            "width": 289,
+            "height": 25
+        },
+        {
+            "id": 52,
+            "content": "well structured and",
+            "boundary_left": 357,
+            "boundary_bottom": 3012,
+            "boundary_right": 523,
+            "boundary_top": 3036,
+            "width": 166,
+            "height": 24
+        },
+        {
+            "id": 53,
+            "content": "not iust a mix",
+            "boundary_left": 716,
+            "boundary_bottom": 3012,
+            "boundary_right": 828,
+            "boundary_top": 3036,
+            "width": 112,
+            "height": 24
+        },
+        {
+            "id": 54,
+            "content": "'Learn wh",
+            "boundary_left": 993,
+            "boundary_bottom": 3012,
+            "boundary_right": 1079,
+            "boundary_top": 3036,
+            "width": 86,
+            "height": 24
+        },
+        {
+            "id": 55,
+            "content": "are the most important search engine ranking",
+            "boundary_left": 1102,
+            "boundary_bottom": 3012,
+            "boundary_right": 1485,
+            "boundary_top": 3043,
+            "width": 383,
+            "height": 31
+        },
+        {
+            "id": 56,
+            "content": "of paragraphs that contain keywords",
+            "boundary_left": 309,
+            "boundary_bottom": 3046,
+            "boundary_right": 618,
+            "boundary_top": 3070,
+            "width": 309,
+            "height": 24
+        },
+        {
+            "id": 57,
+            "content": "~factors and ontimize",
+            "boundary_left": 994,
+            "boundary_bottom": 3047,
+            "boundary_right": 1172,
+            "boundary_top": 3062,
+            "width": 178,
+            "height": 15
+        },
+        {
+            "id": 58,
+            "content": "your website accordnigly",
+            "boundary_left": 1169,
+            "boundary_bottom": 3046,
+            "boundary_right": 1377,
+            "boundary_top": 3070,
+            "width": 208,
+            "height": 24
+        },
+        {
+            "id": 59,
+            "content": "Who Should Attend The",
+            "boundary_left": 233,
+            "boundary_bottom": 3295,
+            "boundary_right": 715,
+            "boundary_top": 3343,
+            "width": 482,
+            "height": 48
+        },
+        {
+            "id": 60,
+            "content": "SEO Training Course",
+            "boundary_left": 232,
+            "boundary_bottom": 3342,
+            "boundary_right": 662,
+            "boundary_top": 3407,
+            "width": 430,
+            "height": 65
+        },
+        {
+            "id": 61,
+            "content": "passionale about the web and especiallv",
+            "boundary_left": 446,
+            "boundary_bottom": 3426,
+            "boundary_right": 780,
+            "boundary_top": 3442,
+            "width": 334,
+            "height": 16
+        },
+        {
+            "id": 62,
+            "content": "seeking to",
+            "boundary_left": 329,
+            "boundary_bottom": 3452,
+            "boundary_right": 422,
+            "boundary_top": 3477,
+            "width": 93,
+            "height": 25
+        },
+        {
+            "id": 63,
+            "content": "\" company",
+            "boundary_left": 688,
+            "boundary_bottom": 3452,
+            "boundary_right": 774,
+            "boundary_top": 3477,
+            "width": 86,
+            "height": 25
+        },
+        {
+            "id": 64,
+            "content": "~websites and bloas",
+            "boundary_left": 228,
+            "boundary_bottom": 3479,
+            "boundary_right": 394,
+            "boundary_top": 3504,
+            "width": 166,
+            "height": 25
+        },
+        {
+            "id": 65,
+            "content": "Course Video Presentation",
+            "boundary_left": 612,
+            "boundary_bottom": 3816,
+            "boundary_right": 1155,
+            "boundary_top": 3865,
+            "width": 543,
+            "height": 49
+        },
+        {
+            "id": 66,
+            "content": "Key Takeaways",
+            "boundary_left": 720,
+            "boundary_bottom": 4717,
+            "boundary_right": 1040,
+            "boundary_top": 4773,
+            "width": 320,
+            "height": 56
+        },
+        {
+            "id": 67,
+            "content": "topics that will be covered in the SEO training",
+            "boundary_left": 614,
+            "boundary_bottom": 4794,
+            "boundary_right": 991,
+            "boundary_top": 4818,
+            "width": 377,
+            "height": 24
+        },
+        {
+            "id": 68,
+            "content": "'cover all the basics of",
+            "boundary_left": 1102,
+            "boundary_bottom": 4794,
+            "boundary_right": 1289,
+            "boundary_top": 4818,
+            "width": 187,
+            "height": 24
+        },
+        {
+            "id": 69,
+            "content": "SEO and even some advanced techniques that",
+            "boundary_left": 567,
+            "boundary_bottom": 4821,
+            "boundary_right": 963,
+            "boundary_top": 4845,
+            "width": 396,
+            "height": 24
+        },
+        {
+            "id": 70,
+            "content": "help vou along the way",
+            "boundary_left": 993,
+            "boundary_bottom": 4821,
+            "boundary_right": 1187,
+            "boundary_top": 4845,
+            "width": 194,
+            "height": 24
+        },
+        {
+            "id": 71,
+            "content": "Keyword Planning",
+            "boundary_left": 770,
+            "boundary_bottom": 5112,
+            "boundary_right": 977,
+            "boundary_top": 5143,
+            "width": 207,
+            "height": 31
+        },
+        {
+            "id": 72,
+            "content": "Writin",
+            "boundary_left": 1230,
+            "boundary_bottom": 5119,
+            "boundary_right": 1302,
+            "boundary_top": 5143,
+            "width": 72,
+            "height": 24
+        },
+        {
+            "id": 73,
+            "content": "Articles",
+            "boundary_left": 1318,
+            "boundary_bottom": 5119,
+            "boundary_right": 1411,
+            "boundary_top": 5143,
+            "width": 93,
+            "height": 24
+        },
+        {
+            "id": 74,
+            "content": "Undorst",
+            "boundary_left": 282,
+            "boundary_bottom": 5159,
+            "boundary_right": 354,
+            "boundary_top": 5184,
+            "width": 72,
+            "height": 25
+        },
+        {
+            "id": 75,
+            "content": "wobsite",
+            "boundary_left": 485,
+            "boundary_bottom": 5159,
+            "boundary_right": 557,
+            "boundary_top": 5184,
+            "width": 72,
+            "height": 25
+        },
+        {
+            "id": 76,
+            "content": "'to plan your",
+            "boundary_left": 1203,
+            "boundary_bottom": 5159,
+            "boundary_right": 1309,
+            "boundary_top": 5184,
+            "width": 106,
+            "height": 25
+        },
+        {
+            "id": 77,
+            "content": "currently positioned in search engine",
+            "boundary_left": 275,
+            "boundary_bottom": 5187,
+            "boundary_right": 584,
+            "boundary_top": 5218,
+            "width": 309,
+            "height": 31
+        },
+        {
+            "id": 78,
+            "content": "vour website",
+            "boundary_left": 717,
+            "boundary_bottom": 5194,
+            "boundary_right": 827,
+            "boundary_top": 5210,
+            "width": 110,
+            "height": 16
+        },
+        {
+            "id": 79,
+            "content": "strategy in the long",
+            "boundary_left": 871,
+            "boundary_bottom": 5187,
+            "boundary_right": 1038,
+            "boundary_top": 5218,
+            "width": 167,
+            "height": 31
+        },
+        {
+            "id": 80,
+            "content": "5 that are optimized for SEO",
+            "boundary_left": 1258,
+            "boundary_bottom": 5187,
+            "boundary_right": 1485,
+            "boundary_top": 5211,
+            "width": 227,
+            "height": 24
+        },
+        {
+            "id": 81,
+            "content": "Gathering Backlinks",
+            "boundary_left": 316,
+            "boundary_bottom": 5566,
+            "boundary_right": 543,
+            "boundary_top": 5597,
+            "width": 227,
+            "height": 31
+        },
+        {
+            "id": 82,
+            "content": "Partnerships",
+            "boundary_left": 831,
+            "boundary_bottom": 5573,
+            "boundary_right": 984,
+            "boundary_top": 5597,
+            "width": 153,
+            "height": 24
+        },
+        {
+            "id": 83,
+            "content": "Evaluate Actions",
+            "boundary_left": 1230,
+            "boundary_bottom": 5573,
+            "boundary_right": 1417,
+            "boundary_top": 5597,
+            "width": 187,
+            "height": 24
+        },
+        {
+            "id": 84,
+            "content": "Backlinks are vital for SEO ar",
+            "boundary_left": 275,
+            "boundary_bottom": 5607,
+            "boundary_right": 523,
+            "boundary_top": 5638,
+            "width": 248,
+            "height": 31
+        },
+        {
+            "id": 85,
+            "content": "Partnerships",
+            "boundary_left": 729,
+            "boundary_bottom": 5613,
+            "boundary_right": 842,
+            "boundary_top": 5638,
+            "width": 113,
+            "height": 25
+        },
+        {
+            "id": 86,
+            "content": "Iestablish",
+            "boundary_left": 939,
+            "boundary_bottom": 5613,
+            "boundary_right": 1024,
+            "boundary_top": 5638,
+            "width": 85,
+            "height": 25
+        },
+        {
+            "id": 87,
+            "content": "how to use the rig",
+            "boundary_left": 1224,
+            "boundary_bottom": 5613,
+            "boundary_right": 1377,
+            "boundary_top": 5638,
+            "width": 153,
+            "height": 25
+        },
+        {
+            "id": 88,
+            "content": "everything there is to know",
+            "boundary_left": 357,
+            "boundary_bottom": 5640,
+            "boundary_right": 584,
+            "boundary_top": 5665,
+            "width": 227,
+            "height": 25
+        },
+        {
+            "id": 89,
+            "content": "vour website or bloq as an authority in",
+            "boundary_left": 716,
+            "boundary_bottom": 5640,
+            "boundary_right": 1038,
+            "boundary_top": 5665,
+            "width": 322,
+            "height": 25
+        },
+        {
+            "id": 90,
+            "content": "~tools t0 evaluate vour SEO actions and",
+            "boundary_left": 1156,
+            "boundary_bottom": 5640,
+            "boundary_right": 1485,
+            "boundary_top": 5665,
+            "width": 329,
+            "height": 25
+        },
+        {
+            "id": 91,
+            "content": "about them",
+            "boundary_left": 378,
+            "boundary_bottom": 5675,
+            "boundary_right": 481,
+            "boundary_top": 5691,
+            "width": 103,
+            "height": 16
+        },
+        {
+            "id": 92,
+            "content": "~your field",
+            "boundary_left": 831,
+            "boundary_bottom": 5674,
+            "boundary_right": 916,
+            "boundary_top": 5699,
+            "width": 85,
+            "height": 25
+        },
+        {
+            "id": 93,
+            "content": "~improve them",
+            "boundary_left": 1258,
+            "boundary_bottom": 5674,
+            "boundary_right": 1383,
+            "boundary_top": 5699,
+            "width": 125,
+            "height": 25
+        },
+        {
+            "id": 94,
+            "content": "Check out our attendees testimonials from",
+            "boundary_left": 572,
+            "boundary_bottom": 5931,
+            "boundary_right": 1181,
+            "boundary_top": 5971,
+            "width": 609,
+            "height": 40
+        },
+        {
+            "id": 95,
+            "content": "previous",
+            "boundary_left": 607,
+            "boundary_bottom": 5972,
+            "boundary_right": 733,
+            "boundary_top": 5997,
+            "width": 126,
+            "height": 25
+        },
+        {
+            "id": 96,
+            "content": "editions",
+            "boundary_left": 743,
+            "boundary_bottom": 5972,
+            "boundary_right": 855,
+            "boundary_top": 5997,
+            "width": 112,
+            "height": 25
+        },
+        {
+            "id": 97,
+            "content": "of the SEO Training",
+            "boundary_left": 864,
+            "boundary_bottom": 5965,
+            "boundary_right": 1147,
+            "boundary_top": 6004,
+            "width": 283,
+            "height": 39
+        },
+        {
+            "id": 98,
+            "content": "is the best SEO training",
+            "boundary_left": 484,
+            "boundary_bottom": 6068,
+            "boundary_right": 688,
+            "boundary_top": 6107,
+            "width": 204,
+            "height": 39
+        },
+        {
+            "id": 99,
+            "content": "course in the",
+            "boundary_left": 689,
+            "boundary_bottom": 6082,
+            "boundary_right": 800,
+            "boundary_top": 6097,
+            "width": 111,
+            "height": 15
+        },
+        {
+            "id": 100,
+            "content": "Learnina",
+            "boundary_left": 1049,
+            "boundary_bottom": 6082,
+            "boundary_right": 1132,
+            "boundary_top": 6097,
+            "width": 83,
+            "height": 15
+        },
+        {
+            "id": 101,
+            "content": "SEO can actuallv be fun. | attended",
+            "boundary_left": 1129,
+            "boundary_bottom": 6074,
+            "boundary_right": 1424,
+            "boundary_top": 6098,
+            "width": 295,
+            "height": 24
+        },
+        {
+            "id": 102,
+            "content": "market: It teaches _",
+            "boundary_left": 431,
+            "boundary_bottom": 6108,
+            "boundary_right": 591,
+            "boundary_top": 6132,
+            "width": 160,
+            "height": 24
+        },
+        {
+            "id": 103,
+            "content": "Iall the basics but it also",
+            "boundary_left": 614,
+            "boundary_bottom": 6108,
+            "boundary_right": 814,
+            "boundary_top": 6132,
+            "width": 200,
+            "height": 24
+        },
+        {
+            "id": 104,
+            "content": "Corso SEO training and | had & great time",
+            "boundary_left": 1048,
+            "boundary_bottom": 6108,
+            "boundary_right": 1404,
+            "boundary_top": 6132,
+            "width": 356,
+            "height": 24
+        },
+        {
+            "id": 105,
+            "content": "value with",
+            "boundary_left": 479,
+            "boundary_bottom": 6143,
+            "boundary_right": 563,
+            "boundary_top": 6158,
+            "width": 84,
+            "height": 15
+        },
+        {
+            "id": 106,
+            "content": "some advanced tips & tricks the",
+            "boundary_left": 567,
+            "boundary_bottom": 6135,
+            "boundary_right": 835,
+            "boundary_top": 6159,
+            "width": 268,
+            "height": 24
+        },
+        {
+            "id": 107,
+            "content": "students and the instructors. Hiqhlv",
+            "boundary_left": 1122,
+            "boundary_bottom": 6135,
+            "boundary_right": 1417,
+            "boundary_top": 6159,
+            "width": 295,
+            "height": 24
+        },
+        {
+            "id": 108,
+            "content": "{ course",
+            "boundary_left": 1169,
+            "boundary_bottom": 6169,
+            "boundary_right": 1234,
+            "boundary_top": 6193,
+            "width": 65,
+            "height": 24
+        },
+        {
+            "id": 109,
+            "content": "Sinaer - Online Marketer",
+            "boundary_left": 492,
+            "boundary_bottom": 6203,
+            "boundary_right": 713,
+            "boundary_top": 6227,
+            "width": 221,
+            "height": 24
+        },
+        {
+            "id": 110,
+            "content": "Ronda Louis",
+            "boundary_left": 1049,
+            "boundary_bottom": 6210,
+            "boundary_right": 1166,
+            "boundary_top": 6226,
+            "width": 117,
+            "height": 16
+        },
+        {
+            "id": 111,
+            "content": "Business Owner",
+            "boundary_left": 1176,
+            "boundary_bottom": 6203,
+            "boundary_right": 1329,
+            "boundary_top": 6227,
+            "width": 153,
+            "height": 24
+        },
+        {
+            "id": 112,
+            "content": "December",
+            "boundary_left": 641,
+            "boundary_bottom": 6521,
+            "boundary_right": 848,
+            "boundary_top": 6552,
+            "width": 207,
+            "height": 31
+        },
+        {
+            "id": 113,
+            "content": "22nd 2020 at",
+            "boundary_left": 856,
+            "boundary_bottom": 6512,
+            "boundary_right": 1121,
+            "boundary_top": 6568,
+            "width": 265,
+            "height": 56
+        },
+        {
+            "id": 114,
+            "content": "Innovation Hub Space",
+            "boundary_left": 653,
+            "boundary_bottom": 6573,
+            "boundary_right": 1108,
+            "boundary_top": 6622,
+            "width": 455,
+            "height": 49
+        },
+        {
+            "id": 115,
+            "content": "do better SEO",
+            "boundary_left": 661,
+            "boundary_bottom": 6657,
+            "boundary_right": 787,
+            "boundary_top": 6681,
+            "width": 126,
+            "height": 24
+        },
+        {
+            "id": 116,
+            "content": "next SEO Training Course",
+            "boundary_left": 1115,
+            "boundary_bottom": 6657,
+            "boundary_right": 1329,
+            "boundary_top": 6681,
+            "width": 214,
+            "height": 24
+        },
+        {
+            "id": 117,
+            "content": "session which undoubtedly will provide you with the necessary skills to improve your",
+            "boundary_left": 416,
+            "boundary_bottom": 6677,
+            "boundary_right": 1113,
+            "boundary_top": 6720,
+            "width": 697,
+            "height": 43
+        },
+        {
+            "id": 118,
+            "content": "presence",
+            "boundary_left": 1163,
+            "boundary_bottom": 6690,
+            "boundary_right": 1241,
+            "boundary_top": 6715,
+            "width": 78,
+            "height": 25
+        },
+        {
+            "id": 119,
+            "content": "'to register",
+            "boundary_left": 695,
+            "boundary_bottom": 6718,
+            "boundary_right": 787,
+            "boundary_top": 6742,
+            "width": 92,
+            "height": 24
+        },
+        {
+            "id": 120,
+            "content": "REGISTER",
+            "boundary_left": 831,
+            "boundary_bottom": 6792,
+            "boundary_right": 923,
+            "boundary_top": 6816,
+            "width": 92,
+            "height": 24
+        },
+        {
+            "id": 121,
+            "content": "Stay updated with news by subscribing",
+            "boundary_left": 545,
+            "boundary_bottom": 7116,
+            "boundary_right": 1113,
+            "boundary_top": 7156,
+            "width": 568,
+            "height": 40
+        },
+        {
+            "id": 122,
+            "content": "our",
+            "boundary_left": 1149,
+            "boundary_bottom": 7117,
+            "boundary_right": 1207,
+            "boundary_top": 7142,
+            "width": 58,
+            "height": 25
+        },
+        {
+            "id": 123,
+            "content": "newsletter",
+            "boundary_left": 621,
+            "boundary_bottom": 7158,
+            "boundary_right": 774,
+            "boundary_top": 7182,
+            "width": 153,
+            "height": 24
+        },
+        {
+            "id": 124,
+            "content": "and our social channels",
+            "boundary_left": 783,
+            "boundary_bottom": 7158,
+            "boundary_right": 1126,
+            "boundary_top": 7182,
+            "width": 343,
+            "height": 24
+        },
+        {
+            "id": 125,
+            "content": "Ive read and agree to Corso's written Erivacy_Policy and Tetms_Condilions",
+            "boundary_left": 600,
+            "boundary_bottom": 7327,
+            "boundary_right": 1065,
+            "boundary_top": 7358,
+            "width": 465,
+            "height": 31
+        },
+        {
+            "id": 126,
+            "content": "Contact Details",
+            "boundary_left": 233,
+            "boundary_bottom": 7826,
+            "boundary_right": 545,
+            "boundary_top": 7875,
+            "width": 312,
+            "height": 49
+        },
+        {
+            "id": 127,
+            "content": "registration questi",
+            "boundary_left": 268,
+            "boundary_bottom": 7896,
+            "boundary_right": 415,
+            "boundary_top": 7921,
+            "width": 147,
+            "height": 25
+        },
+        {
+            "id": 128,
+            "content": "details below For",
+            "boundary_left": 236,
+            "boundary_bottom": 7931,
+            "boundary_right": 380,
+            "boundary_top": 7947,
+            "width": 144,
+            "height": 16
+        },
+        {
+            "id": 129,
+            "content": "'questions use the form_",
+            "boundary_left": 411,
+            "boundary_bottom": 7930,
+            "boundary_right": 611,
+            "boundary_top": 7954,
+            "width": 200,
+            "height": 24
+        },
+        {
+            "id": 130,
+            "content": "Main Office Location",
+            "boundary_left": 235,
+            "boundary_bottom": 7998,
+            "boundary_right": 537,
+            "boundary_top": 8029,
+            "width": 302,
+            "height": 31
+        },
+        {
+            "id": 131,
+            "content": "22 Innovative, San Francisco, CA 94043,",
+            "boundary_left": 262,
+            "boundary_bottom": 8045,
+            "boundary_right": 598,
+            "boundary_top": 8076,
+            "width": 336,
+            "height": 31
+        },
+        {
+            "id": 132,
+            "content": "1554 332",
+            "boundary_left": 316,
+            "boundary_bottom": 8086,
+            "boundary_right": 394,
+            "boundary_top": 8110,
+            "width": 78,
+            "height": 24
+        },
+        {
+            "id": 133,
+            "content": "276 112",
+            "boundary_left": 492,
+            "boundary_bottom": 8086,
+            "boundary_right": 564,
+            "boundary_top": 8110,
+            "width": 72,
+            "height": 24
+        },
+        {
+            "id": 134,
+            "content": "Id Terms Conditions",
+            "boundary_left": 1265,
+            "boundary_bottom": 8114,
+            "boundary_right": 1389,
+            "boundary_top": 8130,
+            "width": 124,
+            "height": 16
+        },
+        {
+            "id": 135,
+            "content": "contact@zigo com",
+            "boundary_left": 262,
+            "boundary_bottom": 8127,
+            "boundary_right": 422,
+            "boundary_top": 8151,
+            "width": 160,
+            "height": 24
+        },
+        {
+            "id": 136,
+            "content": "WWWzigocom",
+            "boundary_left": 472,
+            "boundary_bottom": 8127,
+            "boundary_right": 598,
+            "boundary_top": 8151,
+            "width": 126,
+            "height": 24
+        },
+        {
+            "id": 137,
+            "content": "Corso",
+            "boundary_left": 296,
+            "boundary_bottom": 8425,
+            "boundary_right": 367,
+            "boundary_top": 8449,
+            "width": 71,
+            "height": 24
+        },
+        {
+            "id": 138,
+            "content": "Media",
+            "boundary_left": 1318,
+            "boundary_bottom": 8425,
+            "boundary_right": 1377,
+            "boundary_top": 8449,
+            "width": 59,
+            "height": 24
+        },
+        {
+            "id": 139,
+            "content": "; & Condi",
+            "boundary_left": 682,
+            "boundary_bottom": 8465,
+            "boundary_right": 747,
+            "boundary_top": 8490,
+            "width": 65,
+            "height": 25
+        },
+        {
+            "id": 140,
+            "content": "Conditi",
+            "boundary_left": 1027,
+            "boundary_bottom": 8499,
+            "boundary_right": 1079,
+            "boundary_top": 8523,
+            "width": 52,
+            "height": 24
+        },
+        {
+            "id": 141,
+            "content": "Garry",
+            "boundary_left": 1035,
+            "boundary_bottom": 1988,
+            "boundary_right": 1143,
+            "boundary_top": 2046,
+            "width": 108,
+            "height": 58
+        }
+    ]
+}

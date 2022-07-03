@@ -1,0 +1,199 @@
+{
+    "img_shape": [
+        577,
+        473,
+        3
+    ],
+    "compos": [
+        {
+            "id": "8d33fb59-fafd-11ec-ad0f-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 353,
+            "boundary_bottom": 9,
+            "boundary_right": 421,
+            "boundary_top": 41,
+            "width": 68,
+            "height": 32
+        },
+        {
+            "id": "8d344943-fafd-11ec-b20d-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 15,
+            "boundary_bottom": 9,
+            "boundary_right": 20,
+            "boundary_top": 45,
+            "width": 5,
+            "height": 36
+        },
+        {
+            "id": "8d34973c-fafd-11ec-b6e8-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 422,
+            "boundary_bottom": 15,
+            "boundary_right": 430,
+            "boundary_top": 24,
+            "width": 8,
+            "height": 9
+        },
+        {
+            "id": "8d34be1f-fafd-11ec-86eb-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 374,
+            "boundary_bottom": 9,
+            "boundary_right": 437,
+            "boundary_top": 44,
+            "width": 63,
+            "height": 35
+        },
+        {
+            "id": "8d361cbe-fafd-11ec-8656-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 16,
+            "boundary_bottom": 67,
+            "boundary_right": 437,
+            "boundary_top": 88,
+            "width": 421,
+            "height": 21
+        },
+        {
+            "id": "8d38d9f4-fafd-11ec-bfa5-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 20,
+            "boundary_bottom": 116,
+            "boundary_right": 87,
+            "boundary_top": 128,
+            "width": 67,
+            "height": 12
+        },
+        {
+            "id": "8d39b336-fafd-11ec-aefc-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 19,
+            "boundary_bottom": 153,
+            "boundary_right": 27,
+            "boundary_top": 156,
+            "width": 8,
+            "height": 3
+        },
+        {
+            "id": "8d39da1d-fafd-11ec-b875-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 17,
+            "boundary_bottom": 154,
+            "boundary_right": 133,
+            "boundary_top": 200,
+            "width": 116,
+            "height": 46
+        },
+        {
+            "id": "8d3aeacb-fafd-11ec-b3e1-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 36,
+            "boundary_bottom": 225,
+            "boundary_right": 437,
+            "boundary_top": 244,
+            "width": 401,
+            "height": 19
+        },
+        {
+            "id": "8d3b5faa-fafd-11ec-ab02-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 16,
+            "boundary_bottom": 225,
+            "boundary_right": 43,
+            "boundary_top": 246,
+            "width": 27,
+            "height": 21
+        },
+        {
+            "id": "8d3b869e-fafd-11ec-8248-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 43,
+            "boundary_bottom": 227,
+            "boundary_right": 55,
+            "boundary_top": 230,
+            "width": 12,
+            "height": 3
+        },
+        {
+            "id": "8d3c4979-fafd-11ec-9add-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 20,
+            "boundary_bottom": 273,
+            "boundary_right": 73,
+            "boundary_top": 288,
+            "width": 53,
+            "height": 15
+        },
+        {
+            "id": "8d3ce53d-fafd-11ec-be8d-d8c497926850",
+            "class": "Block",
+            "boundary_left": 15,
+            "boundary_bottom": 312,
+            "boundary_right": 437,
+            "boundary_top": 437,
+            "width": 422,
+            "height": 125
+        },
+        {
+            "id": "8d3dcefd-fafd-11ec-9bbe-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 19,
+            "boundary_bottom": 355,
+            "boundary_right": 71,
+            "boundary_top": 370,
+            "width": 52,
+            "height": 15
+        },
+        {
+            "id": "8d3f5491-fafd-11ec-ba45-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 20,
+            "boundary_bottom": 399,
+            "boundary_right": 71,
+            "boundary_top": 414,
+            "width": 51,
+            "height": 15
+        },
+        {
+            "id": "8d403e5c-fafd-11ec-be36-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 21,
+            "boundary_bottom": 441,
+            "boundary_right": 73,
+            "boundary_top": 456,
+            "width": 52,
+            "height": 15
+        },
+        {
+            "id": "8d414f17-fafd-11ec-97c8-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 18,
+            "boundary_bottom": 481,
+            "boundary_right": 63,
+            "boundary_top": 497,
+            "width": 45,
+            "height": 16
+        },
+        {
+            "id": "8d4286af-fafd-11ec-82fb-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 21,
+            "boundary_bottom": 522,
+            "boundary_right": 74,
+            "boundary_top": 536,
+            "width": 53,
+            "height": 14
+        },
+        {
+            "id": "8d437081-fafd-11ec-bf89-d8c497926850",
+            "class": "Compo",
+            "boundary_left": 21,
+            "boundary_bottom": 544,
+            "boundary_right": 64,
+            "boundary_top": 559,
+            "width": 43,
+            "height": 15
+        }
+    ]
+}
