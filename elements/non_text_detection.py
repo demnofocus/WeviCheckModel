@@ -6,6 +6,7 @@ from elements.Component import Component
 import numpy as np
 import json
 import cv2
+import random
 
 
 def save_corners_json(file_path, compos):
@@ -247,7 +248,7 @@ def draw_bounding_box(org, components, color=(0, 255, 0), line=2, show=False, wr
     if show:
         # board = pre.get_resize_img(board, 1 / 3)
         cv2.imshow(name, board)
-        cv2.imwrite('text_example245.jpg', board)
+
         if wait_key is not None:
             cv2.waitKey(wait_key)
         if wait_key == 0:
@@ -260,20 +261,16 @@ def compo_detection(org_image, text_block_img, config):
     input_img_path = config.INPUT_PATH
     name = input_img_path.split('/')[-1][:-4] if '/' in input_img_path else input_img_path.split('\\')[-1][:-4]
     ip_root = build_directory(pjoin(config.OUTPUT_PATH, "ip"))
-
     # Step 1  get binary map
     grey = pre.get_grey(text_block_img)
     binary = pre.get_binary_image(grey, grad_min=int(config.THRESHOLD_MIN_BINARY_GRADIENT))
-
     # Step 2 element detection
     elements = component_detection(binary, min_obj_area=int(config.THRESHOLD_MIN_ELEMENT_AREA))
-
     # Step 3 results refinement
     elements = compo_filter(elements, min_area=int(config.THRESHOLD_MIN_ELEMENT_AREA), img_shape=binary.shape)
     elements = compo_block_recognition(binary, elements)
     Compo.compos_update(elements, text_block_img.shape)
     Compo.compos_containment(elements)
-
     # Step 4 check if big compos have nesting elements
     elements += nesting_inspection(grey, elements, ffl_block=config.FF_BLOCK)
     Compo.compos_update(elements, text_block_img.shape)

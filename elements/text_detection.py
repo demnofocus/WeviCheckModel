@@ -34,14 +34,14 @@ def text_cvt_easy_orc_format(ocr_result):
             boundary = {'left': int(tl[0]), 'top': int(br[1]),
                         'right': int(br[0]), 'bottom': int(tl[1])}
             texts.append(Text(content, boundary))
-
     return texts
 
 
 def text_filter_noise(texts):
     valid_texts = []
     for text in texts:
-        if len(text.content) <= 1 and text.content.lower() not in ['a', ',', '.', '!', '?', '$', '%', ':', '&', '+', '~']:
+        if len(text.content) <= 1 and text.content.lower() \
+                not in ['a', ',', '.', '!', '?', '$', '%', ':', '&', '+', '~']:
             continue
         valid_texts.append(text)
     return valid_texts
