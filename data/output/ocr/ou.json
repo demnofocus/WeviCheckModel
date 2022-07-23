@@ -1,0 +1,389 @@
+{
+    "img_shape": [
+        1709,
+        1698,
+        3
+    ],
+    "texts": [
+        {
+            "id": "a53e2f90-05db-11ed-8139-d8c497926850",
+            "content": "ConnectED",
+            "boundary_left": 62,
+            "boundary_bottom": 16,
+            "boundary_right": 176,
+            "boundary_top": 42,
+            "width": 114,
+            "height": 26
+        },
+        {
+            "id": "a53e5689-05db-11ed-8b11-d8c497926850",
+            "content": "My Profile",
+            "boundary_left": 202,
+            "boundary_bottom": 108,
+            "boundary_right": 314,
+            "boundary_top": 138,
+            "width": 112,
+            "height": 30
+        },
+        {
+            "id": "a53e568a-05db-11ed-9bb5-d8c497926850",
+            "content": "Write a new postl",
+            "boundary_left": 496,
+            "boundary_bottom": 116,
+            "boundary_right": 645,
+            "boundary_top": 142,
+            "width": 149,
+            "height": 26
+        },
+        {
+            "id": "a53e568b-05db-11ed-b222-d8c497926850",
+            "content": "Upcoming Events",
+            "boundary_left": 1431,
+            "boundary_bottom": 109,
+            "boundary_right": 1580,
+            "boundary_top": 138,
+            "width": 149,
+            "height": 29
+        },
+        {
+            "id": "a53e568c-05db-11ed-b02c-d8c497926850",
+            "content": "Status: Feeling \" Great",
+            "boundary_left": 543,
+            "boundary_bottom": 164,
+            "boundary_right": 714,
+            "boundary_top": 199,
+            "width": 171,
+            "height": 35
+        },
+        {
+            "id": "a53e568d-05db-11ed-90da-d8c497926850",
+            "content": "Post",
+            "boundary_left": 536,
+            "boundary_bottom": 232,
+            "boundary_right": 582,
+            "boundary_top": 256,
+            "width": 46,
+            "height": 24
+        },
+        {
+            "id": "a53e7d86-05db-11ed-b086-d8c497926850",
+            "content": "Designer, Ul",
+            "boundary_left": 124,
+            "boundary_bottom": 328,
+            "boundary_right": 228,
+            "boundary_top": 354,
+            "width": 104,
+            "height": 26
+        },
+        {
+            "id": "a53e7d87-05db-11ed-bafd-d8c497926850",
+            "content": "min",
+            "boundary_left": 1297,
+            "boundary_bottom": 323,
+            "boundary_right": 1333,
+            "boundary_top": 343,
+            "width": 36,
+            "height": 20
+        },
+        {
+            "id": "a53e7d88-05db-11ed-a9b5-d8c497926850",
+            "content": "John Doe",
+            "boundary_left": 577,
+            "boundary_bottom": 333,
+            "boundary_right": 687,
+            "boundary_top": 370,
+            "width": 110,
+            "height": 37
+        },
+        {
+            "id": "a53e7d89-05db-11ed-89da-d8c497926850",
+            "content": "London, UK",
+            "boundary_left": 127,
+            "boundary_bottom": 368,
+            "boundary_right": 230,
+            "boundary_top": 394,
+            "width": 103,
+            "height": 26
+        },
+        {
+            "id": "a53e7d8a-05db-11ed-8c1e-d8c497926850",
+            "content": "April 1, 1988",
+            "boundary_left": 128,
+            "boundary_bottom": 414,
+            "boundary_right": 234,
+            "boundary_top": 438,
+            "width": 106,
+            "height": 24
+        },
+        {
+            "id": "a53e7d8b-05db-11ed-ba37-d8c497926850",
+            "content": "Awards Ceremony Friday 15.00",
+            "boundary_left": 1430,
+            "boundary_bottom": 425,
+            "boundary_right": 1584,
+            "boundary_top": 497,
+            "width": 154,
+            "height": 72
+        },
+        {
+            "id": "a53e7d8c-05db-11ed-9cbb-d8c497926850",
+            "content": "Greatness is an enjoyment: It is as fundamental as craving: There is genuinely nothing to be said about it. It looks like the aroma of a rose: You can smell it and that is all; Energetic Rose Day'",
+            "boundary_left": 494,
+            "boundary_bottom": 449,
+            "boundary_right": 1326,
+            "boundary_top": 507,
+            "width": 832,
+            "height": 58
+        },
+        {
+            "id": "a53e7d8d-05db-11ed-a534-d8c497926850",
+            "content": "My Groups",
+            "boundary_left": 128,
+            "boundary_bottom": 491,
+            "boundary_right": 224,
+            "boundary_top": 517,
+            "width": 96,
+            "height": 26
+        },
+        {
+            "id": "a53e7d8e-05db-11ed-b994-d8c497926850",
+            "content": "Info",
+            "boundary_left": 1487,
+            "boundary_bottom": 523,
+            "boundary_right": 1525,
+            "boundary_top": 543,
+            "width": 38,
+            "height": 20
+        },
+        {
+            "id": "a53e7d8f-05db-11ed-9e54-d8c497926850",
+            "content": "My Evennt",
+            "boundary_left": 128,
+            "boundary_bottom": 536,
+            "boundary_right": 220,
+            "boundary_top": 560,
+            "width": 92,
+            "height": 24
+        },
+        {
+            "id": "a53e7d90-05db-11ed-80b5-d8c497926850",
+            "content": "My Photos",
+            "boundary_left": 128,
+            "boundary_bottom": 580,
+            "boundary_right": 220,
+            "boundary_top": 606,
+            "width": 92,
+            "height": 26
+        },
+        {
+            "id": "a53e7d91-05db-11ed-ad3a-d8c497926850",
+            "content": "Friend Reqest",
+            "boundary_left": 1448,
+            "boundary_bottom": 618,
+            "boundary_right": 1566,
+            "boundary_top": 644,
+            "width": 118,
+            "height": 26
+        },
+        {
+            "id": "a53e7d92-05db-11ed-8611-d8c497926850",
+            "content": "Your Aletsl",
+            "boundary_left": 82,
+            "boundary_bottom": 686,
+            "boundary_right": 178,
+            "boundary_top": 710,
+            "width": 96,
+            "height": 24
+        },
+        {
+            "id": "a53e7d93-05db-11ed-a157-d8c497926850",
+            "content": "People are looking at your profile: Find out who by activating Premium Account:",
+            "boundary_left": 84,
+            "boundary_bottom": 726,
+            "boundary_right": 472,
+            "boundary_top": 782,
+            "width": 388,
+            "height": 56
+        },
+        {
+            "id": "a53e7d94-05db-11ed-b909-d8c497926850",
+            "content": "Jane Doe",
+            "boundary_left": 1464,
+            "boundary_bottom": 766,
+            "boundary_right": 1546,
+            "boundary_top": 790,
+            "width": 82,
+            "height": 24
+        },
+        {
+            "id": "a53e7d95-05db-11ed-96b3-d8c497926850",
+            "content": "Like",
+            "boundary_left": 543,
+            "boundary_bottom": 831,
+            "boundary_right": 583,
+            "boundary_top": 851,
+            "width": 40,
+            "height": 20
+        },
+        {
+            "id": "a53e7d96-05db-11ed-91b4-d8c497926850",
+            "content": "Comment",
+            "boundary_left": 642,
+            "boundary_bottom": 831,
+            "boundary_right": 730,
+            "boundary_top": 851,
+            "width": 88,
+            "height": 20
+        },
+        {
+            "id": "a53e7d97-05db-11ed-8fe7-d8c497926850",
+            "content": "16 min",
+            "boundary_left": 1273,
+            "boundary_bottom": 939,
+            "boundary_right": 1333,
+            "boundary_top": 959,
+            "width": 60,
+            "height": 20
+        },
+        {
+            "id": "a53e7d98-05db-11ed-b0b9-d8c497926850",
+            "content": "Your Points: 120",
+            "boundary_left": 1436,
+            "boundary_bottom": 932,
+            "boundary_right": 1574,
+            "boundary_top": 956,
+            "width": 138,
+            "height": 24
+        },
+        {
+            "id": "a53ea474-05db-11ed-aeee-d8c497926850",
+            "content": "John Duddly",
+            "boundary_left": 579,
+            "boundary_bottom": 945,
+            "boundary_right": 724,
+            "boundary_top": 986,
+            "width": 145,
+            "height": 41
+        },
+        {
+            "id": "a53ea475-05db-11ed-b304-d8c497926850",
+            "content": "You can regrer a lot of things but youl never regret being kind. Have a great day alll",
+            "boundary_left": 494,
+            "boundary_bottom": 1066,
+            "boundary_right": 1174,
+            "boundary_top": 1097,
+            "width": 680,
+            "height": 31
+        },
+        {
+            "id": "a53ea476-05db-11ed-ba7b-d8c497926850",
+            "content": "We use cookies to provide necsessary site functionality and improve your experience",
+            "boundary_left": 1390,
+            "boundary_bottom": 1073,
+            "boundary_right": 1622,
+            "boundary_top": 1178,
+            "width": 232,
+            "height": 105
+        },
+        {
+            "id": "a53ea477-05db-11ed-808b-d8c497926850",
+            "content": "Like",
+            "boundary_left": 539,
+            "boundary_bottom": 1123,
+            "boundary_right": 577,
+            "boundary_top": 1143,
+            "width": 38,
+            "height": 20
+        },
+        {
+            "id": "a53ea478-05db-11ed-be62-d8c497926850",
+            "content": "Comment",
+            "boundary_left": 638,
+            "boundary_bottom": 1120,
+            "boundary_right": 726,
+            "boundary_top": 1144,
+            "width": 88,
+            "height": 24
+        },
+        {
+            "id": "a53ea479-05db-11ed-ab05-d8c497926850",
+            "content": "32 min",
+            "boundary_left": 1273,
+            "boundary_bottom": 1221,
+            "boundary_right": 1333,
+            "boundary_top": 1241,
+            "width": 60,
+            "height": 20
+        },
+        {
+            "id": "a53ea47a-05db-11ed-9b9d-d8c497926850",
+            "content": "Angie Jane",
+            "boundary_left": 584,
+            "boundary_bottom": 1234,
+            "boundary_right": 702,
+            "boundary_top": 1266,
+            "width": 118,
+            "height": 32
+        },
+        {
+            "id": "a53ea47b-05db-11ed-8fff-d8c497926850",
+            "content": "Did you know?",
+            "boundary_left": 496,
+            "boundary_bottom": 1350,
+            "boundary_right": 620,
+            "boundary_top": 1376,
+            "width": 124,
+            "height": 26
+        },
+        {
+            "id": "a53ea47c-05db-11ed-a105-d8c497926850",
+            "content": "It is no doubt that Vikings were some of the toughest men in history books. However, they cared about their appearance enough that makeup was a part of their everyday routine:",
+            "boundary_left": 494,
+            "boundary_bottom": 1390,
+            "boundary_right": 1328,
+            "boundary_top": 1446,
+            "width": 834,
+            "height": 56
+        },
+        {
+            "id": "a53ea47d-05db-11ed-aeac-d8c497926850",
+            "content": "Like",
+            "boundary_left": 539,
+            "boundary_bottom": 1473,
+            "boundary_right": 577,
+            "boundary_top": 1493,
+            "width": 38,
+            "height": 20
+        },
+        {
+            "id": "a53ea47e-05db-11ed-9cfa-d8c497926850",
+            "content": "Comment",
+            "boundary_left": 638,
+            "boundary_bottom": 1472,
+            "boundary_right": 726,
+            "boundary_top": 1492,
+            "width": 88,
+            "height": 20
+        },
+        {
+            "id": "a53ea47f-05db-11ed-a7e0-d8c497926850",
+            "content": "About uS",
+            "boundary_left": 14,
+            "boundary_bottom": 1602,
+            "boundary_right": 108,
+            "boundary_top": 1626,
+            "width": 94,
+            "height": 24
+        },
+        {
+            "id": "a53ea480-05db-11ed-bc45-d8c497926850",
+            "content": "Privacy * Terms * Advertising * Ad choices * Cookies * Mega @ 2022",
+            "boundary_left": 12,
+            "boundary_bottom": 1646,
+            "boundary_right": 544,
+            "boundary_top": 1677,
+            "width": 532,
+            "height": 31
+        }
+    ]
+}

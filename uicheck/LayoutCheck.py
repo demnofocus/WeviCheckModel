@@ -3,9 +3,14 @@ import cv2
 
 def get_report(name, org_image, element_list):
     image = org_image.copy()
+    count = 1
     for widget in element_list:
+        cv2.putText(image, "{}: {}".format("Issue", count),
+                    (widget.bbox.boundary_left, widget.bbox.boundary_bottom),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 3)
         cv2.rectangle(image, (widget.bbox.boundary_left, widget.bbox.boundary_bottom),
                       (widget.bbox.boundary_right, widget.bbox.boundary_top), (0, 0, 255), 2)
+        count = count + 1
 
     return image, element_list
 
@@ -16,7 +21,7 @@ class LayoutCheck:
 
     def check_element_collision(self, image_id,  image, element_list):
         collided_elements = []
-
+        test_result = "pass"
         widget_list = element_list
 
         for widget1 in widget_list:
@@ -41,12 +46,13 @@ class LayoutCheck:
                                 and w1left <= w2right <= w1right and w1bottom <= w2top <= w1top:
                             continue
                         if widget2 not in collided_elements:
+                            test_result = "fail"
                             collided_elements.append(widget2)
 
         report_name = str(image_id) + '_collision_report'
         self.collided_element_list.append([report_name, collided_elements])
         image_report, element_list = get_report(report_name, image, collided_elements)
-        return image_report, element_list
+        return image_report, element_list, test_result
 
     def check_viewport_protrusion(self, image_id, image, element_list, max_width):
         protruded_elements = []

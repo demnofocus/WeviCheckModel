@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import logging
 
 
 def get_resize_img(org, ratio):
@@ -24,6 +25,7 @@ def grey_to_gradient(img):
 
 
 def get_binary_image(gray_img, grad_min, show=False, write_path=None, wait_key=0):
+    print('Generating binary image...')
     gradient_img = grey_to_gradient(gray_img)
     rec, binary_img = cv2.threshold(gradient_img, grad_min, 255, cv2.THRESH_BINARY)
     morph_img = cv2.morphologyEx(binary_img, cv2.MORPH_CLOSE, (3, 3))
@@ -35,7 +37,6 @@ def get_binary_image(gray_img, grad_min, show=False, write_path=None, wait_key=0
         if wait_key is not None:
             cv2.waitKey(wait_key)
 
-    print("Non-Text: Binarize Image")
     return morph_img
 
 

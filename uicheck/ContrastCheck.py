@@ -46,10 +46,12 @@ class ContrastCheck:
     def check_text_contrast(self, image_id, text_list, image_org):
         image = image_org.copy()
         text_dic = {}
+        test_result = "pass"
 
         if len(text_list) > 0:
             count = 1
             for element in text_list:
+
                 text_dic.setdefault(element.id, {})
                 x_min = element.boundary['left']
                 y_min = element.boundary['bottom']
@@ -72,21 +74,25 @@ class ContrastCheck:
                 l1 = get_relative_luminance(r_max, g_max, b_max)
                 l2 = get_relative_luminance(r_min, g_min, b_min)
                 contrast_level = (l1 + 0.05) / (l2 + 0.05)
-                # "position": (x_max, y_max), "min_rgb": (r_min, g_min, b_min),
-                # "max_rgb": (r_max, g_max, b_max),
-                value = {"content": content, "min_color": min_color,
+
+                value = {"num": 0, "content": content, "min_color": min_color,
                          "max_color": max_color, "contrast_lvl": contrast_level, "expected": 4.5, "test": "pass"}
 
                 text_dic[element.id] = value
                 if contrast_level < 4.5:
-                    cv2.putText(image, str(count) + "(lvl" + str(contrast_level) + " min:" + min_color + " max:"
-                                + max_color + ")", (x_min, y_min), 2, 0.8, (0, 0, 255), 2, cv2.LINE_AA)
+                    # cv2.putText(image, str(count) + "(lvl" + str(contrast_level) + " min:" + min_color + " max:"
+                    #             + max_color + ")", (x_min, y_min), 2, 0.8, (0, 0, 255), 2, cv2.LINE_AA)
+                    cv2.putText(image, "{}: {}".format("Issue", count),
+                                (x_min, y_min), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 3)
                     cv2.rectangle(image, (x_min, y_min), (x_max, y_max), (0, 0, 255), 2)
-                    print(text_dic[element.id]["content"])
-                    text_dic[element.id]["test"] = "fail"
 
-                count += 1
+                    num = count
+                    text_dic[element.id]["test"] = "fail"
+                    text_dic[element.id]["num"] = num
+                    test_result = "fail"
+
+                    count = count + 1
 
         self.contrast_check_list = text_dic.copy()
 
-        return image, text_dic
+        return image, text_dic, test_result

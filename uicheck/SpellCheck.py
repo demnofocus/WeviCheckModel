@@ -31,7 +31,7 @@ class SpellCheck:
 
     def spell_check(self, org_image, text_list):
         words_dic = break_to_words(text_list)
-
+        test_result = "pass"
         wrong_words_dic = {}
         wrong_ids = []
 
@@ -43,7 +43,7 @@ class SpellCheck:
                     corrected = spell.correction(wrong_word)
                     suggested = spell.candidates(wrong_word)
                     suggestions = str(suggested).replace("{", "").replace("}", "")
-                    value = {"word": wrong_word, "corrected": corrected,
+                    value = {"num": 0, "word": wrong_word, "corrected": corrected,
                              "suggestions": suggestions,
                              "test": "fail"}
 
@@ -53,11 +53,19 @@ class SpellCheck:
                         wrong_ids.append(set_id)
 
         image = org_image.copy()
-
+        count = 1
         if len(text_list) > 0:
             for element in text_list:
+                num = 0
                 if element.id in wrong_ids:
+                    cv2.putText(image, "{}: {}".format("Issue", count),
+                                (element.boundary['left'], element.boundary['bottom']),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 3)
                     cv2.rectangle(image, (element.boundary['left'], element.boundary['top']),
                                   (element.boundary['right'], element.boundary['bottom']), (0, 0, 255), 2)
+                    num = count
+                    count = count + 1
+                    test_result = "fail"
+                wrong_words_dic[element.id]["num"] = num
 
-        return image, wrong_words_dic
+        return image, wrong_words_dic, test_result

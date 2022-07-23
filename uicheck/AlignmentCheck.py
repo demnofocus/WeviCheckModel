@@ -37,7 +37,7 @@ def get_report(org_image, list_of_filtered_lists):
         if len(list_of_elements_filtered) > 1:
             for widget in list_of_elements_filtered:
                 cv2.rectangle(image, (widget.bbox.boundary_left, widget.bbox.boundary_bottom),
-                              (widget.bbox.boundary_right, widget.bbox.boundary_top), colour, 2)
+                              (widget.bbox.boundary_right, widget.bbox.boundary_top), colour, 4)
     return image
 
 

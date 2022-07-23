@@ -1,4 +1,5 @@
 import base64
+import logging
 from os.path import join as pjoin
 import os
 
@@ -16,6 +17,7 @@ from flask_pymongo import PyMongo
 import numpy as np
 from PIL import Image
 import io
+import sys
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -25,11 +27,19 @@ configuration = Configuration()
 
 db = pymongo.MongoClient('localhost', 27017)['wevicheckdb']
 
+logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
+logFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
+rootLogger = logging.getLogger()
+
+consoleHandler = logging.StreamHandler()
+consoleHandler.setFormatter(logFormatter)
+rootLogger.addHandler(consoleHandler)
+
 
 @app.route(rule="/test_parameters", methods=["POST"])
 def parameter_test():
     req = request.get_json(force=True)
-    print('[SERVER] - Received parameters: {}'.format(req.keys()))
+    print('Received parameters: {}'.format(req.keys()))
     min_grad = float(req["bin_grad"])
     min_ele_area = float(req["min_ele_area"])
     image_string = req["image"]
@@ -65,6 +75,7 @@ def parameter_test():
     configuration.INPUT_PATH = 'data/input/ConnectEDHome.jpeg'
     configuration.OUTPUT_PATH = 'data/output'
     configuration.THRESHOLD_MIN_ELEMENT_AREA = min_ele_area
+    configuration.THRESHOLD_MIN_BINARY_GRADIENT = min_grad
     elements, detected_img_array = ip.compo_detection(image, image, configuration)
 
     detected_img22 = Image.fromarray(detected_img_array)
@@ -74,7 +85,7 @@ def parameter_test():
     detected_encode = image_info + str(base64.b64encode(detected_buffered.getvalue()))[2:][:-1]
 
     message = {"binary_img": binary_encode, "detected_img": detected_encode}
-    # print("[MODEL] - Generated binary image", jsonify(message))
+    print('Sending detection result')
 
     return message
 
@@ -82,7 +93,7 @@ def parameter_test():
 @app.route('/select_tests', methods=['POST'])
 def set_tests():
     req = request.get_json(force=True)
-    print('[SERVER] - Received tests: {}'.format(req))
+    print('Received tests configuration: {}'.format(req.keys()))
 
     if not req["layout"] is None:
         configuration.CHECK_LAYOUT = req["layout"]
@@ -97,29 +108,26 @@ def set_tests():
     if not req["images"] is None:
         configuration.CHECK_IMAGES = req["images"]
 
-    print("Tests: layout={0}, alignment={1}, text_color={2}, spelling={3}, grammar={4}, images={5}"
-          .format(configuration.CHECK_LAYOUT,
-                  configuration.CHECK_ALIGNMENT,
-                  configuration.CHECK_TEXT_CONTRAST,
-                  configuration.CHECK_SPELLING,
-                  configuration.CHECK_GRAMMAR,
-                  configuration.CHECK_IMAGES))
-    message = {
-        "status": "success"
-    }
+    print("Configured tests:"
+                 " layout={0}, alignment={1}, text_color={2}, spelling={3}, grammar={4}, images={5}"
+                 .format(configuration.CHECK_LAYOUT,
+                         configuration.CHECK_ALIGNMENT,
+                         configuration.CHECK_TEXT_CONTRAST,
+                         configuration.CHECK_SPELLING,
+                         configuration.CHECK_GRAMMAR,
+                         configuration.CHECK_IMAGES))
 
+    message = {"status": "success"}
     return message
 
 
 @app.route(rule='/ui_check', methods=['POST'])
 def ui_check():
     req = request.get_json(force=True)
-    print('[SERVER] - Received parameters: {}'.format(req.keys()))
-    # min_grad = float(req["bin_grad"])
-    # min_ele_area = float(req["min_ele_area"])
+    print('Starting UI check: {}'.format(req.keys()))
+
     image_string = req["image"]
 
-    image_info = ""
     new_image_string = ""
     if "jpeg" in image_string:
         image_info = "data:image/jpeg;base64,"
@@ -151,33 +159,39 @@ def ui_check():
     os.makedirs(pjoin(configuration.OUTPUT_PATH, 'ocr'), exist_ok=True)
     os.makedirs(pjoin(configuration.OUTPUT_PATH, 'ip'), exist_ok=True)
 
+    print('Running text detection...')
     webpage.text_elements = text.text_detection(preprocessed_img, configuration)
     image2 = text.draw_text_blocks(preprocessed_img, webpage.text_elements)
 
+    print('Running element detection...')
     webpage.non_text_elements, detected_img = ip.compo_detection(preprocessed_img, image2, configuration)
 
     message = {}
     message.update({"image_info": {"image_name": "ConnectED s1.jpeg", "image_id": webpage.image_id}})
 
     if configuration.TEXT_AND_COMPONENT_MERGE:
+        print('Merging text and UI elements')
         from elements import merge as merge
         webpage.elements = merge.merge_text2(preprocessed_img, webpage.non_text_elements, webpage.text_elements)
 
     if configuration.CHECK_LAYOUT:
+        print('Running layout check...')
         from uicheck.LayoutCheck import LayoutCheck
 
         layout = LayoutCheck()
-        image_array, report = layout.check_element_collision(webpage.image_id, preprocessed_img, webpage.elements)
+        image_array, report, test_result = layout.check_element_collision(webpage.image_id, preprocessed_img, webpage.elements)
 
         image_report = Image.fromarray(image_array)
         image_report_buffered = io.BytesIO()
         image_report.save(image_report_buffered, "JPEG")
 
         report_encoded = "data:image/jpeg;base64," + str(base64.b64encode(image_report_buffered.getvalue()))[2:][:-1]
-        report = {"number1": {"info": "hello"}, "number2": {"info": "hello2"}, "number3": {"info": "hello2"}}
-        message.update({"layout_test": {"image": report_encoded, "report": report}})
+
+        report = {"info": "Elements collided with other elements are highlighted"}
+        message.update({"layout_test": {"image": report_encoded, "report": report, "test_result": test_result}})
 
     if configuration.CHECK_ALIGNMENT:
+        print('Running alignment check...')
         from uicheck.AlignmentCheck import AlignmentCheck
 
         alignment = AlignmentCheck()
@@ -226,54 +240,59 @@ def ui_check():
                          "column_center": report_encoded6}})
 
     if configuration.CHECK_TEXT_CONTRAST:
+        print('Running text contrast check...')
         from uicheck.ContrastCheck import ContrastCheck
 
         contrast = ContrastCheck()
-        image_array, text_list = contrast.check_text_contrast(webpage.image_id, webpage.text_elements, preprocessed_img)
+        image_array, text_list, test_result = contrast.check_text_contrast(webpage.image_id, webpage.text_elements, preprocessed_img)
 
         image_report = Image.fromarray(image_array)
         image_report_buffered = io.BytesIO()
         image_report.save(image_report_buffered, "JPEG")
 
         report_encoded = "data:image/jpeg;base64," + str(base64.b64encode(image_report_buffered.getvalue()))[2:][:-1]
-        message.update({"contrast_test": {"image": report_encoded, "report": text_list}})
+        message.update({"contrast_test": {"image": report_encoded, "report": text_list, "test_result": test_result}})
 
     if configuration.CHECK_SPELLING:
+        print(' Running spelling check...')
         from uicheck.SpellCheck import SpellCheck
         spell = SpellCheck()
-        image_array, webpage.spelling_results = spell.spell_check(preprocessed_img, webpage.text_elements)
+        image_array, webpage.spelling_results, test_result = spell.spell_check(preprocessed_img, webpage.text_elements)
 
         image_report = Image.fromarray(image_array)
         image_report_buffered = io.BytesIO()
         image_report.save(image_report_buffered, "JPEG")
         report_encoded = "data:image/jpeg;base64," + str(base64.b64encode(image_report_buffered.getvalue()))[2:][:-1]
-        message.update({"spelling_test": {"image": report_encoded, "report": webpage.spelling_results}})
+        message.update({"spelling_test": {"image": report_encoded, "report": webpage.spelling_results, "test_result": test_result}})
 
     if configuration.CHECK_GRAMMAR:
+        print('Running grammar check...')
         from uicheck.GrammarCheck import GrammarCheck
 
         grammar = GrammarCheck()
-        image_array, webpage.grammar_test_results = grammar.grammar_check(preprocessed_img, webpage.text_elements)
+        image_array, webpage.grammar_test_results, test_result = grammar.grammar_check(preprocessed_img, webpage.text_elements)
 
         image_report = Image.fromarray(image_array)
         image_report_buffered = io.BytesIO()
         image_report.save(image_report_buffered, "JPEG")
         report_encoded = "data:image/jpeg;base64," + str(base64.b64encode(image_report_buffered.getvalue()))[2:][:-1]
-        message.update({"grammar_test": {"image": report_encoded, "report": webpage.grammar_test_results}})
+        message.update({"grammar_test": {"image": report_encoded, "report": webpage.grammar_test_results, "test_result": test_result}})
 
     if configuration.CHECK_IMAGES:
+        print('Running image check...')
         from uicheck.ImageCheck import ImageCheck
 
         blurred = ImageCheck()
-        image_array, blur_check_dic = blurred.check_blured(webpage.image_id, preprocessed_img, webpage.elements, 100)
+        image_array, blur_check_dic, test_result = blurred.check_blured(webpage.image_id, preprocessed_img, webpage.elements, 100)
 
         image_report = Image.fromarray(image_array)
         image_report_buffered = io.BytesIO()
         image_report.save(image_report_buffered, "JPEG")
 
         report_encoded = "data:image/jpeg;base64," + str(base64.b64encode(image_report_buffered.getvalue()))[2:][:-1]
-        message.update({"image_test": {"image": report_encoded, "report": blur_check_dic}})
+        message.update({"image_test": {"image": report_encoded, "report": blur_check_dic, "test_result": test_result}})
 
+    print('UI check completed')
     return message
 
 

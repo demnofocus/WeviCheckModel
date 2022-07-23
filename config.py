@@ -17,7 +17,7 @@ class Configuration:
         self.THRESHOLD_TOP_BOTTOM_BAR = (0.045, 0.94)  # (36/800, 752/800) height ratio of top and bottom bar
         self.THRESHOLD_BLOCK_MIN_HEIGHT = 0.03  # 24/800
         self.THRESHOLD_MIN_BINARY_GRADIENT = 15
-        self.THRESHOLD_MIN_ELEMENT_AREA = 15
+        self.THRESHOLD_MIN_ELEMENT_AREA = 170
         self.CROP_VALUE_TOP = 0
         self.CROP_VALUE_BOTTOM = 0
         self.CROP_VALUE_LEFT = 0
